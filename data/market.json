@@ -5,23 +5,23 @@
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 754.75,
-    "change_1d": -0.63,
-    "change_20d": 4.28,
+    "price": 754.4,
+    "change_1d": -0.68,
+    "change_20d": 4.23,
     "signals": {
       "daily": {
-        "close": 754.75,
-        "ema20": 743.03,
-        "ema50": 721.01,
+        "close": 754.4,
+        "ema20": 743.0,
+        "ema50": 720.99,
         "ema200": 680.42,
-        "rsi": 68.6,
+        "rsi": 68.2,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.34,
-        "atr": 6.44,
-        "week52_pct": 97.2
+        "vol_ratio": 0.36,
+        "atr": 6.49,
+        "week52_pct": 97.0
       }
     },
     "levels": {
@@ -37,23 +37,23 @@
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 742.99,
-    "change_1d": -0.42,
-    "change_20d": 9.01,
+    "price": 742.63,
+    "change_1d": -0.47,
+    "change_20d": 8.95,
     "signals": {
       "daily": {
-        "close": 742.99,
-        "ema20": 716.49,
-        "ema50": 679.63,
+        "close": 742.63,
+        "ema20": 716.45,
+        "ema50": 679.61,
         "ema200": 622.45,
-        "rsi": 76.1,
+        "rsi": 75.7,
         "rsi_label": "overbought",
         "macd": "bullish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.53,
+        "vol_ratio": 0.56,
         "atr": 9.9,
-        "week52_pct": 98.6
+        "week52_pct": 98.4
       }
     },
     "levels": {
@@ -68,88 +68,88 @@
     }
   },
   "vix": {
-    "value": 16.28,
-    "change": 3.23,
+    "value": 16.36,
+    "change": 3.74,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 196.04,
-      "change_1d": -1.09,
-      "rsi": 78.8,
+      "price": 195.75,
+      "change_1d": -1.24,
+      "rsi": 78.2,
       "rsi_label": "overbought",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 50.74,
-      "change_1d": -1.4,
-      "rsi": 41.1,
+      "price": 50.81,
+      "change_1d": -1.26,
+      "rsi": 41.8,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 147.67,
-      "change_1d": 0.87,
-      "rsi": 51.3,
+      "price": 147.82,
+      "change_1d": 0.97,
+      "rsi": 51.8,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 116.53,
-      "change_1d": -0.9,
-      "rsi": 44.2,
+      "price": 116.47,
+      "change_1d": -0.95,
+      "rsi": 44.1,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLE": {
       "name": "Energy",
-      "price": 59.29,
-      "change_1d": 2.29,
-      "rsi": 56.6,
+      "price": 59.23,
+      "change_1d": 2.19,
+      "rsi": 56.4,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLI": {
       "name": "Industrials",
-      "price": 175.04,
-      "change_1d": 0.49,
-      "rsi": 56.9,
+      "price": 175.0,
+      "change_1d": 0.47,
+      "rsi": 56.8,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": 111.82,
-      "change_1d": -1.54,
-      "rsi": 31.6,
+      "price": 112.05,
+      "change_1d": -1.34,
+      "rsi": 32.3,
       "rsi_label": "weak",
       "ema_stack": "bearish"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 287.58,
-      "change_1d": -1.4,
-      "rsi": 57.6,
+      "price": 287.48,
+      "change_1d": -1.43,
+      "rsi": 57.5,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "TLT": {
       "name": "20yr Treasuries",
-      "price": 85.13,
-      "change_1d": -0.61,
-      "rsi": 49.7,
+      "price": 85.18,
+      "change_1d": -0.55,
+      "rsi": 50.2,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "HYG": {
       "name": "High Yield",
-      "price": 79.66,
-      "change_1d": -0.3,
-      "rsi": 52.3,
+      "price": 79.65,
+      "change_1d": -0.31,
+      "rsi": 52.0,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     }
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "My husband and I are 75. We have $1.5 million in stocks and $425,000 in savings. Is that too much cash?",
-      "url": "https://www.marketwatch.com/story/my-husband-and-i-are-75-we-have-1-5-million-in-stocks-and-425-000-in-savings-is-that-too-much-cash-c9385f9f?mod=mw_rss_topstories",
+      "title": "Another redemption wave is spooking the $2 trillion private-credit market",
+      "url": "https://www.marketwatch.com/story/another-redemption-wave-is-spooking-the-2-trillion-private-credit-market-34a64347?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
