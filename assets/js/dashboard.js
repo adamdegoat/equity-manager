@@ -22,6 +22,7 @@ async function refresh() {
     renderHeader(market, meta);
     renderStatus(meta, scanner);
     renderMarketOverview(market);
+    renderSectors(market);
     renderWatchlist(watchlist);
     renderScanner(scanner);
     renderSignals(watchlist);
@@ -122,6 +123,33 @@ function _fillMarketCard(id, data, market) {
     `EMA: ${sig.ema_stack || '—'} | RSI: ${sig.rsi || '—'} | MACD: ${sig.macd || '—'}`;
 }
 
+// ── Sector Overview ──────────────────────────────────────────────────────────
+function renderSectors(market) {
+  const grid = document.getElementById('sector-grid');
+  if (!grid) return;
+  const sectors = market.sectors || {};
+  const keys = Object.keys(sectors);
+  if (!keys.length) {
+    grid.innerHTML = '<div class="loading-state">No sector data.</div>';
+    return;
+  }
+  grid.innerHTML = keys.map(sym => {
+    const d      = sectors[sym];
+    if (d.error) return `<div class="sector-chip error"><span class="sc-ticker">${sym}</span><span class="sc-name">${d.name}</span><span class="sc-chg">—</span></div>`;
+    const chg    = d.change_1d || 0;
+    const cls    = chg >= 0 ? 'pos' : 'neg';
+    const chgStr = (chg >= 0 ? '+' : '') + chg.toFixed(2) + '%';
+    const stackCls = d.ema_stack === 'bullish' ? 'tag-bullish' : d.ema_stack === 'bearish' ? 'tag-bearish' : 'tag-mixed';
+    return `<div class="sector-chip">
+      <span class="sc-ticker">${sym}</span>
+      <span class="sc-name">${d.name}</span>
+      <span class="sc-chg ${cls}">${chgStr}</span>
+      <span class="sc-stack ${stackCls}">${d.ema_stack || '—'}</span>
+      <span class="sc-rsi">RSI ${d.rsi || '—'}</span>
+    </div>`;
+  }).join('');
+}
+
 // ── Watchlist cards ──────────────────────────────────────────────────────────
 function renderWatchlist(watchlist) {
   const grid = document.getElementById('watchlist-grid');
@@ -133,22 +161,35 @@ function renderWatchlist(watchlist) {
 }
 
 function _stockCard(s) {
-  const v      = s.verdict || 'AVOID';
-  const chgCls = s.change_1d >= 0 ? 'pos' : 'neg';
-  const chgStr = (s.change_1d >= 0 ? '+' : '') + (s.change_1d || 0).toFixed(2) + '%';
-  const sig    = (s.signals || {}).daily || {};
-  const lvl    = s.levels || {};
-  const rStr   = s.rs_vs_spy != null ? (s.rs_vs_spy > 0 ? '+' : '') + s.rs_vs_spy.toFixed(2) + '% vs SPY' : '';
-  const earn   = s.earnings_risk ? `⚠ Earnings: ${s.earnings_date}` : '';
-  const action = (s.moomoo || {}).note || '';
+  const v       = s.verdict || 'AVOID';
+  const chgCls  = s.change_1d >= 0 ? 'pos' : 'neg';
+  const chgStr  = (s.change_1d >= 0 ? '+' : '') + (s.change_1d || 0).toFixed(2) + '%';
+  const sig     = (s.signals || {}).daily || {};
+  const lvl     = s.levels || {};
+  const rStr    = s.rs_vs_spy != null ? (s.rs_vs_spy > 0 ? '+' : '') + s.rs_vs_spy.toFixed(2) + '% (1M)' : '';
+  const rs3     = s.rs_3m   != null   ? (s.rs_3m > 0 ? '+' : '') + s.rs_3m.toFixed(2) + '% (3M)' : '';
+  const rs6     = s.rs_6m   != null   ? (s.rs_6m > 0 ? '+' : '') + s.rs_6m.toFixed(2) + '% (6M)' : '';
+  const w52     = sig.week52_pct != null ? `52W: ${sig.week52_pct}%` : '';
+  const atrStr  = sig.atr         != null ? `ATR: $${sig.atr.toFixed(2)}` : '';
+  const earn    = s.earnings_risk ? `⚠ Earnings: ${s.earnings_date}` : '';
+  const action  = (s.moomoo || {}).note || '';
+  const sector  = s.sector ? `<span class="sc-sector">${s.sector}</span>` : '';
   const suppVal = Array.isArray(lvl.support)    ? lvl.support[0]    : lvl.support;
   const resVal  = Array.isArray(lvl.resistance) ? lvl.resistance[0] : lvl.resistance;
   const supp    = suppVal ? 'S: $' + Number(suppVal).toFixed(2) : '';
   const res     = resVal  ? 'R: $' + Number(resVal).toFixed(2)  : '';
 
+  const rsHtml = [rStr, rs3, rs6].filter(Boolean).map(r => {
+    const cls = r.startsWith('+') ? 'pos' : r.startsWith('-') ? 'neg' : '';
+    return `<span class="sc-rs-item ${cls}">${r}</span>`;
+  }).join('');
+
   return `<div class="stock-card ${v}">
     <div class="sc-header">
-      <span class="sc-sym">${s.symbol}</span>
+      <div>
+        <span class="sc-sym">${s.symbol}</span>
+        ${sector}
+      </div>
       <div style="text-align:right">
         <div class="sc-price">$${(s.price||0).toFixed(2)}</div>
         <div class="sc-chg ${chgCls}">${chgStr}</div>
@@ -157,8 +198,9 @@ function _stockCard(s) {
     <span class="verdict-badge ${v}">${v}</span>
     <div class="sc-summary">${s.summary || ''}</div>
     ${action ? `<div class="sc-action">${action}</div>` : ''}
-    ${rStr   ? `<div class="sc-rs">${rStr}</div>` : ''}
-    ${earn   ? `<div class="sc-earn">${earn}</div>` : ''}
+    ${rsHtml  ? `<div class="sc-rs-wrap">${rsHtml}</div>` : ''}
+    ${w52 || atrStr ? `<div class="sc-meta-row">${w52 ? `<span class="sc-meta">${w52}</span>` : ''}${atrStr ? `<span class="sc-meta">${atrStr}</span>` : ''}</div>` : ''}
+    ${earn    ? `<div class="sc-earn">${earn}</div>` : ''}
     ${supp || res ? `<div class="sc-levels">${supp ? `<span class="sc-lvl">${supp}</span>` : ''}${res ? `<span class="sc-lvl">${res}</span>` : ''}</div>` : ''}
   </div>`;
 }
@@ -199,16 +241,21 @@ function renderScanner(scanner) {
 function renderSignals(watchlist) {
   const tbody = document.getElementById('signals-body');
   if (!watchlist || !watchlist.length) {
-    tbody.innerHTML = '<tr><td colspan="8" class="empty-row">No data.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="11" class="empty-row">No data.</td></tr>';
     return;
   }
   tbody.innerHTML = watchlist.map(s => {
-    const sig   = (s.signals || {}).daily || {};
-    const rsCls = s.rs_vs_spy > 0 ? 'pos' : s.rs_vs_spy < 0 ? 'neg' : 'neutral';
-    const rStr  = (s.rs_vs_spy > 0 ? '+' : '') + (s.rs_vs_spy || 0).toFixed(2) + '%';
-    const earn  = s.earnings_risk
+    const sig    = (s.signals || {}).daily || {};
+    const rsCls  = s.rs_vs_spy > 0 ? 'pos' : s.rs_vs_spy < 0 ? 'neg' : '';
+    const rs3Cls = s.rs_3m > 0 ? 'pos' : s.rs_3m < 0 ? 'neg' : '';
+    const rs6Cls = s.rs_6m > 0 ? 'pos' : s.rs_6m < 0 ? 'neg' : '';
+    const rStr   = (s.rs_vs_spy > 0 ? '+' : '') + (s.rs_vs_spy || 0).toFixed(2) + '%';
+    const rs3    = s.rs_3m != null ? (s.rs_3m > 0 ? '+' : '') + s.rs_3m.toFixed(2) + '%' : '—';
+    const rs6    = s.rs_6m != null ? (s.rs_6m > 0 ? '+' : '') + s.rs_6m.toFixed(2) + '%' : '—';
+    const w52    = sig.week52_pct != null ? sig.week52_pct + '%' : '—';
+    const earn   = s.earnings_risk
       ? `<span style="color:var(--yellow)">⚠ ${s.earnings_date}</span>`
-      : '<span class="neutral">—</span>';
+      : '<span style="color:var(--text-muted)">—</span>';
     return `<tr>
       <td><strong>${s.symbol}</strong></td>
       <td><span class="verdict-badge ${s.verdict}">${s.verdict}</span></td>
@@ -217,6 +264,9 @@ function renderSignals(watchlist) {
       <td class="tag-${sig.macd}">${sig.macd || '—'}</td>
       <td class="tag-${sig.volume}">${sig.volume || '—'}</td>
       <td class="${rsCls}">${rStr}</td>
+      <td class="${rs3Cls}">${rs3}</td>
+      <td class="${rs6Cls}">${rs6}</td>
+      <td>${w52}</td>
       <td>${earn}</td>
     </tr>`;
   }).join('');

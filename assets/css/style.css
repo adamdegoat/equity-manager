@@ -367,6 +367,65 @@ footer {
 .sched-ok      { color: var(--green); }
 .sched-pending { color: var(--text-muted); }
 
+/* ── Sector Overview ───────────────────────────────── */
+.sector-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.sector-chip {
+  background: var(--bg-card2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: .45rem .75rem;
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  font-size: .76rem;
+}
+.sector-chip.error { opacity: .5; }
+.sc-ticker { font-weight: 700; color: var(--accent); min-width: 2.8rem; }
+.sc-name   { color: var(--text-muted); font-size: .7rem; min-width: 8rem; }
+.sc-chg    { font-weight: 600; min-width: 4rem; }
+.sc-stack  { font-size: .68rem; padding: .1rem .35rem; border-radius: 3px; }
+.sc-rsi    { color: var(--text-muted); font-size: .68rem; }
+
+/* ── Stock card new fields ─────────────────────────── */
+.sc-sector {
+  font-size: .65rem;
+  color: var(--text-muted);
+  background: rgba(58,123,213,.12);
+  border: 1px solid rgba(58,123,213,.2);
+  padding: .08rem .4rem;
+  border-radius: 3px;
+  margin-left: .35rem;
+  vertical-align: middle;
+}
+.sc-rs-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin-top: .45rem;
+  font-size: .74rem;
+}
+.sc-rs-item {
+  background: rgba(30,45,66,.6);
+  padding: .12rem .45rem;
+  border-radius: 3px;
+}
+.sc-meta-row {
+  display: flex;
+  gap: .5rem;
+  margin-top: .35rem;
+  font-size: .72rem;
+}
+.sc-meta {
+  background: rgba(30,45,66,.6);
+  padding: .1rem .4rem;
+  border-radius: 3px;
+  color: var(--text-muted);
+}
+
 /* ── Responsive ────────────────────────────────────── */
 @media (max-width: 640px) {
   main { padding: 1rem; }
