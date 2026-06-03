@@ -329,6 +329,44 @@ footer {
 
 .loading-state { color: var(--text-muted); padding: 2rem; text-align: center; font-size: .85rem; }
 
+/* ── System Status ─────────────────────────────────── */
+.status-section { margin-bottom: 2rem; }
+.status-bar {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.status-updated {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex-shrink: 0;
+}
+.status-dot { font-size: .65rem; color: var(--green); animation: status-pulse 2s infinite; }
+@keyframes status-pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+.status-ts-main { font-size: .92rem; font-weight: 600; color: #fff; }
+.status-ts-sub  { font-size: .7rem; color: var(--text-muted); margin-top: .1rem; }
+.status-cycles { text-align: center; flex-shrink: 0; border-left: 1px solid var(--border); padding-left: 1.5rem; }
+.cycles-val { font-size: 1.5rem; font-weight: 700; color: var(--accent); display: block; }
+.cycles-lbl { font-size: .68rem; color: var(--text-muted); }
+.status-schedule { flex: 1; min-width: 320px; overflow-x: auto; border-left: 1px solid var(--border); padding-left: 1.5rem; }
+.sched-table { width: 100%; border-collapse: collapse; font-size: .76rem; }
+.sched-table th {
+  color: var(--text-muted); font-size: .68rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .4px;
+  padding: .25rem .5rem .4rem; text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.sched-table td { padding: .38rem .5rem; border-bottom: 1px solid rgba(30,45,66,.4); }
+.sched-table tr:last-child td { border-bottom: none; }
+.sched-ok      { color: var(--green); }
+.sched-pending { color: var(--text-muted); }
+
 /* ── Responsive ────────────────────────────────────── */
 @media (max-width: 640px) {
   main { padding: 1rem; }

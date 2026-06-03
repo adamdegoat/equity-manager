@@ -20,6 +20,7 @@ async function refresh() {
       _json('meta.json'),
     ]);
     renderHeader(market, meta);
+    renderStatus(meta, scanner);
     renderMarketOverview(market);
     renderWatchlist(watchlist);
     renderScanner(scanner);
@@ -31,6 +32,47 @@ async function refresh() {
   } catch (e) {
     console.error('Refresh failed:', e);
   }
+}
+
+// ── System Status ────────────────────────────────────────────────────────────
+function renderStatus(meta, scanner) {
+  const ts   = meta.last_updated;
+  const now  = Date.now();
+  const diff = ts ? Math.floor((now - new Date(ts).getTime()) / 1000) : null;
+
+  // Main timestamp
+  document.getElementById('status-ts-main').textContent = fmtTs(ts);
+  // Time ago sub-line
+  document.getElementById('status-ts-sub').textContent =
+    diff != null ? timeAgo(diff) + ' · Auto-refreshes every 15 min' : '—';
+
+  // Runs today
+  _setText('status-cycles', meta.cycles_today ?? '—');
+
+  // Engine last run
+  document.getElementById('sched-engine-last').textContent = fmtTs(ts);
+  const staleMin = diff != null ? Math.floor(diff / 60) : null;
+  const engineOk = staleMin != null && staleMin < 20;
+  document.getElementById('sched-engine-status').innerHTML =
+    engineOk ? '<span class="sched-ok">&#10003;</span>' : '<span class="sched-pending">&#9679;</span>';
+
+  // Scanner last run
+  const scannerTs = scanner ? scanner.as_of : null;
+  document.getElementById('sched-scanner-last').textContent = scannerTs ? fmtTs(scannerTs) : '—';
+
+  // L9 last run
+  const l9Ts = meta.last_l9_run;
+  document.getElementById('sched-l9-last').textContent = l9Ts ? fmtTs(l9Ts) : 'Not yet run';
+  document.getElementById('sched-l9-status').innerHTML = l9Ts
+    ? '<span class="sched-ok">&#10003;</span>'
+    : '<span class="sched-pending">&#9679;</span>';
+}
+
+function timeAgo(diffSec) {
+  if (diffSec < 60)   return diffSec + 's ago';
+  if (diffSec < 3600) return Math.floor(diffSec / 60) + 'm ago';
+  if (diffSec < 86400)return Math.floor(diffSec / 3600) + 'h ago';
+  return Math.floor(diffSec / 86400) + 'd ago';
 }
 
 // ── Header ───────────────────────────────────────────────────────────────────
