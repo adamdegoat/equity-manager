@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equity Manager</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-brand">
+      <span class="logo-mark">&#9650;</span>
+      <div>
+        <h1>Equity Manager</h1>
+        <p class="tagline">US Stock Intelligence &mdash; Autonomous</p>
+      </div>
+    </div>
+    <div class="header-meta">
+      <div id="market-status-badge" class="market-badge closed">&#9679; Closed</div>
+      <div class="regime-box">
+        <span class="regime-label">Regime</span>
+        <span id="regime-val" class="regime-tag neutral">—</span>
+      </div>
+      <div class="vix-box">
+        <span class="vix-label">VIX</span>
+        <span id="vix-val">—</span>
+      </div>
+      <div class="ts-box">
+        <span id="ts-label">Updated</span>
+        <span id="last-ts">—</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ── Market Overview ─────────────────────────────────── -->
+<section class="section">
+  <h2 class="section-title">Market Overview</h2>
+  <div class="market-grid">
+    <div class="market-card" id="spy-card">
+      <div class="mc-sym">SPY</div>
+      <div class="mc-price" id="spy-price">—</div>
+      <div class="mc-chg" id="spy-chg">—</div>
+      <div class="mc-detail" id="spy-detail">—</div>
+    </div>
+    <div class="market-card" id="qqq-card">
+      <div class="mc-sym">QQQ</div>
+      <div class="mc-price" id="qqq-price">—</div>
+      <div class="mc-chg" id="qqq-chg">—</div>
+      <div class="mc-detail" id="qqq-detail">—</div>
+    </div>
+    <div class="market-card vix-card" id="vix-card">
+      <div class="mc-sym">VIX</div>
+      <div class="mc-price" id="vix-price">—</div>
+      <div class="mc-chg" id="vix-chg">—</div>
+      <div class="mc-detail" id="vix-detail">—</div>
+    </div>
+    <div class="regime-summary-card">
+      <div class="rs-label">Regime Assessment</div>
+      <div id="regime-desc" class="rs-desc">Loading market data…</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Watchlist ───────────────────────────────────────── -->
+<section class="section">
+  <h2 class="section-title">Watchlist <span class="section-sub">(10 Core Stocks)</span></h2>
+  <div id="watchlist-grid" class="watchlist-grid">
+    <div class="loading-state">Loading watchlist…</div>
+  </div>
+</section>
+
+<!-- ── A+ Scanner ──────────────────────────────────────── -->
+<section class="section">
+  <h2 class="section-title">A+ Scanner <span class="section-sub">(150+ universe &mdash; score ≥ 7)</span></h2>
+  <div id="scanner-meta" class="scanner-meta">Loading…</div>
+  <div id="scanner-table-wrap" class="table-wrap">
+    <table class="data-table" id="scanner-table">
+      <thead>
+        <tr>
+          <th>Symbol</th><th>Price</th><th>1D %</th><th>Score</th>
+          <th>Verdict</th><th>EMA Stack</th><th>RSI</th><th>RS vs SPY</th><th>Earnings</th>
+        </tr>
+      </thead>
+      <tbody id="scanner-body">
+        <tr><td colspan="9" class="empty-row">Scanning…</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ── Signal Breakdown ────────────────────────────────── -->
+<section class="section">
+  <h2 class="section-title">Signal Breakdown <span class="section-sub">(selected watchlist)</span></h2>
+  <div id="signals-table-wrap" class="table-wrap">
+    <table class="data-table" id="signals-table">
+      <thead>
+        <tr>
+          <th>Symbol</th><th>Verdict</th><th>EMA Stack</th>
+          <th>RSI</th><th>MACD</th><th>Volume</th><th>RS vs SPY</th><th>Earnings</th>
+        </tr>
+      </thead>
+      <tbody id="signals-body">
+        <tr><td colspan="8" class="empty-row">Loading…</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ── L9 Intelligence ─────────────────────────────────── -->
+<section class="section">
+  <h2 class="section-title">L9 Intelligence <span class="section-sub">(autonomous strategy engine)</span></h2>
+  <div id="l9-stats" class="l9-stats-grid">
+    <div class="l9-stat"><div class="l9-stat-val" id="l9-active">—</div><div class="l9-stat-lbl">Active</div></div>
+    <div class="l9-stat"><div class="l9-stat-val" id="l9-paper">—</div><div class="l9-stat-lbl">Paper</div></div>
+    <div class="l9-stat"><div class="l9-stat-val" id="l9-promoted">—</div><div class="l9-stat-lbl">Promoted</div></div>
+    <div class="l9-stat"><div class="l9-stat-val" id="l9-retired">—</div><div class="l9-stat-lbl">Retired</div></div>
+    <div class="l9-stat"><div class="l9-stat-val" id="l9-rejected">—</div><div class="l9-stat-lbl">Rejected</div></div>
+  </div>
+  <div id="l9-strategies-wrap" class="table-wrap" style="margin-top:1rem">
+    <table class="data-table" id="l9-table">
+      <thead>
+        <tr><th>Strategy</th><th>Family</th><th>Status</th><th>Symbols</th><th>Trades</th><th>Win Rate</th><th>Promoted</th></tr>
+      </thead>
+      <tbody id="l9-body">
+        <tr><td colspan="7" class="empty-row">No active strategies yet — L9 cycle pending</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ── Paper Portfolio ─────────────────────────────────── -->
+<section class="section">
+  <h2 class="section-title">Paper Portfolio <span class="section-sub">($10,000 starting equity)</span></h2>
+  <div id="portfolio-stats" class="port-stats-grid">
+    <div class="port-stat">
+      <div class="ps-val" id="port-equity">—</div>
+      <div class="ps-lbl">Current Equity</div>
+    </div>
+    <div class="port-stat">
+      <div class="ps-val" id="port-roi">—</div>
+      <div class="ps-lbl">Total ROI</div>
+    </div>
+    <div class="port-stat">
+      <div class="ps-val" id="port-open">—</div>
+      <div class="ps-lbl">Open Positions</div>
+    </div>
+    <div class="port-stat">
+      <div class="ps-val" id="port-trades">—</div>
+      <div class="ps-lbl">Total Trades</div>
+    </div>
+    <div class="port-stat">
+      <div class="ps-val" id="port-wr">—</div>
+      <div class="ps-lbl">Win Rate</div>
+    </div>
+  </div>
+
+  <div class="chart-wrap">
+    <canvas id="equity-chart"></canvas>
+  </div>
+
+  <div class="port-subsection">
+    <h3>Open Positions</h3>
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead><tr><th>Symbol</th><th>Strategy</th><th>Entry</th><th>Current</th><th>Qty</th><th>Unrealized P&amp;L</th><th>Days</th></tr></thead>
+        <tbody id="open-pos-body"><tr><td colspan="7" class="empty-row">No open positions</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="port-subsection">
+    <h3>Recent Closed Trades</h3>
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead><tr><th>Symbol</th><th>Result</th><th>Entry</th><th>Exit</th><th>P&amp;L %</th><th>Days</th></tr></thead>
+        <tbody id="closed-trades-body"><tr><td colspan="6" class="empty-row">No closed trades yet</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── News ───────────────────────────────────────────── -->
+<section class="section">
+  <h2 class="section-title">Market News</h2>
+  <ul id="news-list" class="news-list">
+    <li class="news-loading">Loading headlines…</li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <p>Equity Manager &mdash; Autonomous US Stock Intelligence &mdash; Paper portfolio only</p>
+    <p class="disclaimer">Data provided for informational purposes. Not financial advice. Signals are generated by algorithms and may be incorrect. Do your own research.</p>
+    <p><a href="https://adamdegoat.github.io" class="footer-link">&#8592; Developer Hub</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/dashboard.js"></script>
+</body>
+</html>
