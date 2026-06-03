@@ -49,7 +49,7 @@
     "change_1d": -0.01,
     "verdict": "HOLD",
     "score": 8,
-    "summary": "TSLA is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 53.6 (neutral). Relative strength vs SPY: outperforming (+5.0%). Sector: Consumer Cyclical.",
+    "summary": "TSLA is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 53.6 (neutral). Relative strength vs SPY: outperforming (+5.0%).",
     "moomoo": {
       "note": "Hold existing TSLA position. No aggressive adds yet.",
       "avoid": "Do not add until a clearer signal forms."
@@ -85,7 +85,7 @@
     "rs_6m": -9.1,
     "earnings_date": "2026-07-23",
     "earnings_risk": false,
-    "sector": "Consumer Cyclical"
+    "sector": ""
   },
   {
     "symbol": "AAPL",
