@@ -8,7 +8,7 @@
   "portfolio": {
     "equity": 10000,
     "starting": 10000,
-    "roi_pct": 0,
+    "roi_pct": 0.0,
     "open_trades": 0,
     "total_trades": 0,
     "win_rate": null,

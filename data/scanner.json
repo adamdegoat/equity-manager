@@ -1,0 +1,164 @@
+{
+  "results": [
+    {
+      "symbol": "FDX",
+      "price": 329.0,
+      "change_1d": -2.8,
+      "verdict": "ACCUMULATE",
+      "score": 9,
+      "summary": "FDX is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 60.7 (bullish momentum). Relative strength vs SPY: outperforming (+7.9%).",
+      "moomoo": {
+        "note": "Strong setup. Consider adding FDX on minor dips.",
+        "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
+      },
+      "signals": {
+        "daily": {
+          "close": 329.0,
+          "ema20": 317.6,
+          "ema50": 306.81,
+          "ema200": 260.61,
+          "rsi": 60.7,
+          "rsi_label": "bullish momentum",
+          "macd": "bullish",
+          "ema_stack": "bullish",
+          "volume": "high",
+          "vol_ratio": 1.67
+        }
+      },
+      "levels": {
+        "support": [
+          282.74,
+          277.49
+        ],
+        "resistance": [
+          321.46,
+          333.37
+        ]
+      },
+      "rs_vs_spy": 7.88,
+      "earnings_date": "2026-06-24",
+      "earnings_risk": false
+    },
+    {
+      "symbol": "QCOM",
+      "price": 240.84,
+      "change_1d": 5.17,
+      "verdict": "ACCUMULATE",
+      "score": 8,
+      "summary": "QCOM is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 62.7 (bullish momentum). Relative strength vs SPY: outperforming (+34.3%).",
+      "moomoo": {
+        "note": "Strong setup. Consider adding QCOM on minor dips.",
+        "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
+      },
+      "signals": {
+        "daily": {
+          "close": 240.84,
+          "ema20": 215.59,
+          "ema50": 186.01,
+          "ema200": 162.61,
+          "rsi": 62.7,
+          "rsi_label": "bullish momentum",
+          "macd": "bullish",
+          "ema_stack": "bullish",
+          "volume": "normal",
+          "vol_ratio": 0.64
+        }
+      },
+      "levels": {
+        "support": [
+          126.95,
+          125.54
+        ],
+        "resistance": [
+          228.34,
+          248.33
+        ]
+      },
+      "rs_vs_spy": 34.3,
+      "earnings_date": "2026-07-30",
+      "earnings_risk": false
+    },
+    {
+      "symbol": "LLY",
+      "price": 1064.15,
+      "change_1d": -1.67,
+      "verdict": "ACCUMULATE",
+      "score": 8,
+      "summary": "LLY is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 59.4 (neutral). Relative strength vs SPY: outperforming (+4.4%).",
+      "moomoo": {
+        "note": "Strong setup. Consider adding LLY on minor dips.",
+        "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
+      },
+      "signals": {
+        "daily": {
+          "close": 1064.15,
+          "ema20": 1032.66,
+          "ema50": 993.74,
+          "ema200": 939.71,
+          "rsi": 59.4,
+          "rsi_label": "neutral",
+          "macd": "bullish",
+          "ema_stack": "bullish",
+          "volume": "normal",
+          "vol_ratio": 0.76
+        }
+      },
+      "levels": {
+        "support": [
+          893.55,
+          870.05
+        ],
+        "resistance": [
+          1024.21,
+          1093.66
+        ]
+      },
+      "rs_vs_spy": 4.4,
+      "earnings_date": "2026-08-05",
+      "earnings_risk": false
+    },
+    {
+      "symbol": "GE",
+      "price": 317.72,
+      "change_1d": -2.12,
+      "verdict": "ACCUMULATE",
+      "score": 8,
+      "summary": "GE is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 60.3 (bullish momentum). Relative strength vs SPY: outperforming (+7.4%).",
+      "moomoo": {
+        "note": "Strong setup. Consider adding GE on minor dips.",
+        "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
+      },
+      "signals": {
+        "daily": {
+          "close": 317.72,
+          "ema20": 305.96,
+          "ema50": 302.16,
+          "ema200": 296.08,
+          "rsi": 60.3,
+          "rsi_label": "bullish momentum",
+          "macd": "bullish",
+          "ema_stack": "bullish",
+          "volume": "normal",
+          "vol_ratio": 0.91
+        }
+      },
+      "levels": {
+        "support": [
+          280.02,
+          275.68
+        ],
+        "resistance": [
+          318.72,
+          325.93
+        ]
+      },
+      "rs_vs_spy": 7.38,
+      "earnings_date": "2026-07-16",
+      "earnings_risk": false
+    }
+  ],
+  "scanned": 113,
+  "regime": "BULL",
+  "as_of": "2026-06-03T15:27:54+08:00",
+  "count": 4
+}

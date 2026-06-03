@@ -1,0 +1,98 @@
+{
+  "market_status": "closed",
+  "market_label": "Overnight",
+  "regime": "BULL",
+  "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
+  "spy": {
+    "symbol": "SPY",
+    "price": 759.57,
+    "change_1d": 0.14,
+    "change_20d": 5.79,
+    "signals": {
+      "daily": {
+        "close": 759.57,
+        "ema20": 741.8,
+        "ema50": 719.63,
+        "ema200": 679.67,
+        "rsi": 75.7,
+        "rsi_label": "overbought",
+        "macd": "bearish",
+        "ema_stack": "bullish",
+        "volume": "normal",
+        "vol_ratio": 0.68
+      }
+    },
+    "levels": {
+      "support": [
+        653.33,
+        644.38
+      ],
+      "resistance": [
+        744.05,
+        755.3
+      ]
+    }
+  },
+  "qqq": {
+    "symbol": "QQQ",
+    "price": 746.16,
+    "change_1d": 0.46,
+    "change_20d": 10.89,
+    "signals": {
+      "daily": {
+        "close": 746.16,
+        "ema20": 713.7,
+        "ema50": 677.04,
+        "ema200": 621.24,
+        "rsi": 79.4,
+        "rsi_label": "overbought",
+        "macd": "bullish",
+        "ema_stack": "bullish",
+        "volume": "normal",
+        "vol_ratio": 0.76
+      }
+    },
+    "levels": {
+      "support": [
+        584.28,
+        571.53
+      ],
+      "resistance": [
+        716.72,
+        736.85
+      ]
+    }
+  },
+  "vix": {
+    "value": 15.77,
+    "change": -1.74,
+    "label": "Normal"
+  },
+  "news": [
+    {
+      "title": "Swiss National Bank cuts interest rates by a half point to 0.5%",
+      "url": "https://www.marketwatch.com/story/swiss-national-bank-cuts-interest-rates-by-a-half-point-to-0-5-ed1fce78?mod=mw_rss_realtimeheadlines",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Powell says labor market not a source of significant inflation pressure",
+      "url": "https://www.marketwatch.com/story/powell-says-labor-market-not-a-source-of-significant-inflation-pressure-cc3b1297?mod=mw_rss_realtimeheadlines",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Fed\u2019s Powell says rate cut \u2018on the table\u2019 as soon as September",
+      "url": "https://www.marketwatch.com/story/feds-powell-says-rate-cut-on-the-table-as-soon-as-september-f3f7c8f2?mod=mw_rss_realtimeheadlines",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Final S&P U.S. manufacturing index is 52.2 in February vs. initial 51.5",
+      "url": "https://www.marketwatch.com/story/final-s-p-u-s-manufacturing-index-is-52-2-in-february-vs-initial-51-5-180b7107?mod=mw_rss_realtimeheadlines",
+      "sentiment": "neutral"
+    },
+    {
+      "title": "The S&P 500 climbs for a 9th straight day \u2014 but the \u2018breadth paradox\u2019 is sending a rare warning",
+      "url": "https://www.marketwatch.com/story/s-p-500-climbing-for-9th-straight-day-but-breadth-sends-a-rare-warning-1577195d?mod=mw_rss_topstories",
+      "sentiment": "negative"
+    }
+  ]
+}

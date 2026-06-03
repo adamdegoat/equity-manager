@@ -1,0 +1,392 @@
+[
+  {
+    "symbol": "NVDA",
+    "price": 222.82,
+    "change_1d": -0.69,
+    "verdict": "HOLD",
+    "score": 6,
+    "summary": "NVDA is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 58.8 (neutral). Relative strength vs SPY: outperforming (+6.6%).",
+    "moomoo": {
+      "note": "Hold existing NVDA position. No aggressive adds yet.",
+      "avoid": "Do not add until a clearer signal forms."
+    },
+    "signals": {
+      "daily": {
+        "close": 222.82,
+        "ema20": 215.83,
+        "ema50": 206.12,
+        "ema200": 187.24,
+        "rsi": 58.8,
+        "rsi_label": "neutral",
+        "macd": "bearish",
+        "ema_stack": "bullish",
+        "volume": "normal",
+        "vol_ratio": 1.11
+      }
+    },
+    "levels": {
+      "support": [
+        174.76,
+        170.93
+      ],
+      "resistance": [
+        223.86,
+        230.07
+      ]
+    },
+    "rs_vs_spy": 6.6,
+    "earnings_date": "2026-08-27",
+    "earnings_risk": false
+  },
+  {
+    "symbol": "TSLA",
+    "price": 423.74,
+    "change_1d": 1.89,
+    "verdict": "HOLD",
+    "score": 6,
+    "summary": "TSLA is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 53.6 (neutral). Relative strength vs SPY: outperforming (+2.7%).",
+    "moomoo": {
+      "note": "Hold existing TSLA position. No aggressive adds yet.",
+      "avoid": "Do not add until a clearer signal forms."
+    },
+    "signals": {
+      "daily": {
+        "close": 423.74,
+        "ema20": 420.06,
+        "ema50": 407.73,
+        "ema200": 400.12,
+        "rsi": 53.6,
+        "rsi_label": "neutral",
+        "macd": "bearish",
+        "ema_stack": "bullish",
+        "volume": "normal",
+        "vol_ratio": 0.73
+      }
+    },
+    "levels": {
+      "support": [
+        359.4,
+        342.59
+      ],
+      "resistance": [
+        431.98,
+        447.87
+      ]
+    },
+    "rs_vs_spy": 2.7,
+    "earnings_date": "2026-07-23",
+    "earnings_risk": false
+  },
+  {
+    "symbol": "AAPL",
+    "price": 315.2,
+    "change_1d": 2.9,
+    "verdict": "HOLD",
+    "score": 4,
+    "summary": "AAPL is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 73.7 (overbought). Relative strength vs SPY: outperforming (+7.6%).",
+    "moomoo": {
+      "note": "Hold existing AAPL position. No aggressive adds yet.",
+      "avoid": "Do not add until a clearer signal forms."
+    },
+    "signals": {
+      "daily": {
+        "close": 315.2,
+        "ema20": 300.21,
+        "ema50": 285.21,
+        "ema200": 261.32,
+        "rsi": 73.7,
+        "rsi_label": "overbought",
+        "macd": "bullish",
+        "ema_stack": "bullish",
+        "volume": "normal",
+        "vol_ratio": 0.94
+      }
+    },
+    "levels": {
+      "support": [
+        249.6,
+        246.82
+      ],
+      "resistance": [
+        302.86,
+        312.82
+      ]
+    },
+    "rs_vs_spy": 7.57,
+    "earnings_date": "2026-07-31",
+    "earnings_risk": false
+  },
+  {
+    "symbol": "META",
+    "price": 597.63,
+    "change_1d": -0.47,
+    "verdict": "AVOID",
+    "score": -5,
+    "summary": "META is below its key moving averages \u2014 downtrend in control. RSI at 40.7 (neutral). Relative strength vs SPY: underperforming (-7.5%).",
+    "moomoo": {
+      "note": "No exposure to META until conditions improve.",
+      "avoid": "Do not buy. Wait for trend to recover."
+    },
+    "signals": {
+      "daily": {
+        "close": 597.63,
+        "ema20": 617.1,
+        "ema50": 623.54,
+        "ema200": 650.16,
+        "rsi": 40.7,
+        "rsi_label": "neutral",
+        "macd": "bearish",
+        "ema_stack": "bearish",
+        "volume": "normal",
+        "vol_ratio": 1.17
+      }
+    },
+    "levels": {
+      "support": [
+        590.44,
+        546.6
+      ],
+      "resistance": [
+        674.54,
+        680.76
+      ]
+    },
+    "rs_vs_spy": -7.5,
+    "earnings_date": "2026-07-30",
+    "earnings_risk": false
+  },
+  {
+    "symbol": "AMZN",
+    "price": 256.52,
+    "change_1d": -1.81,
+    "verdict": "AVOID",
+    "score": -2,
+    "summary": "AMZN is showing mixed trend signals \u2014 no clear directional bias. RSI at 44.6 (neutral). Relative strength vs SPY: underperforming (-11.3%).",
+    "moomoo": {
+      "note": "No exposure to AMZN until conditions improve.",
+      "avoid": "Do not buy. Wait for trend to recover."
+    },
+    "signals": {
+      "daily": {
+        "close": 256.52,
+        "ema20": 264.31,
+        "ema50": 253.01,
+        "ema200": 233.32,
+        "rsi": 44.6,
+        "rsi_label": "neutral",
+        "macd": "bearish",
+        "ema_stack": "mixed",
+        "volume": "normal",
+        "vol_ratio": 1.06
+      }
+    },
+    "levels": {
+      "support": [
+        207.12,
+        204.31
+      ],
+      "resistance": [
+        273.37,
+        276.13
+      ]
+    },
+    "rs_vs_spy": -11.31,
+    "earnings_date": "2026-07-31",
+    "earnings_risk": false
+  },
+  {
+    "symbol": "MSFT",
+    "price": 441.31,
+    "change_1d": -4.17,
+    "verdict": "HOLD",
+    "score": 5,
+    "summary": "MSFT is showing mixed trend signals \u2014 no clear directional bias. RSI at 60.2 (bullish momentum). Relative strength vs SPY: outperforming (+1.5%).",
+    "moomoo": {
+      "note": "Hold existing MSFT position. No aggressive adds yet.",
+      "avoid": "Do not add until a clearer signal forms."
+    },
+    "signals": {
+      "daily": {
+        "close": 441.31,
+        "ema20": 424.48,
+        "ema50": 415.56,
+        "ema200": 439.34,
+        "rsi": 60.2,
+        "rsi_label": "bullish momentum",
+        "macd": "bullish",
+        "ema_stack": "mixed",
+        "volume": "normal",
+        "vol_ratio": 1.01
+      }
+    },
+    "levels": {
+      "support": [
+        368.81,
+        363.31
+      ],
+      "resistance": [
+        427.08,
+        433.64
+      ]
+    },
+    "rs_vs_spy": 1.45,
+    "earnings_date": "2026-07-30",
+    "earnings_risk": false
+  },
+  {
+    "symbol": "AMD",
+    "price": 521.54,
+    "change_1d": 2.24,
+    "verdict": "HOLD",
+    "score": 4,
+    "summary": "AMD is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 75.2 (overbought). Relative strength vs SPY: outperforming (+40.0%).",
+    "moomoo": {
+      "note": "Hold existing AMD position. No aggressive adds yet.",
+      "avoid": "Do not add until a clearer signal forms."
+    },
+    "signals": {
+      "daily": {
+        "close": 521.54,
+        "ema20": 452.79,
+        "ema50": 372.51,
+        "ema200": 257.2,
+        "rsi": 75.2,
+        "rsi_label": "overbought",
+        "macd": "bullish",
+        "ema_stack": "bullish",
+        "volume": "normal",
+        "vol_ratio": 0.62
+      }
+    },
+    "levels": {
+      "support": [
+        197.54,
+        192.87
+      ],
+      "resistance": [
+        458.9,
+        517.73
+      ]
+    },
+    "rs_vs_spy": 39.99,
+    "earnings_date": "2026-08-05",
+    "earnings_risk": false
+  },
+  {
+    "symbol": "GOOGL",
+    "price": 361.85,
+    "change_1d": -3.86,
+    "verdict": "AVOID",
+    "score": -1,
+    "summary": "GOOGL is showing mixed trend signals \u2014 no clear directional bias. RSI at 40.4 (neutral). Relative strength vs SPY: underperforming (-11.1%).",
+    "moomoo": {
+      "note": "No exposure to GOOGL until conditions improve.",
+      "avoid": "Do not buy. Wait for trend to recover."
+    },
+    "signals": {
+      "daily": {
+        "close": 361.85,
+        "ema20": 380.02,
+        "ema50": 360.48,
+        "ema200": 303.5,
+        "rsi": 40.4,
+        "rsi_label": "neutral",
+        "macd": "bearish",
+        "ema_stack": "mixed",
+        "volume": "high",
+        "vol_ratio": 1.76
+      }
+    },
+    "levels": {
+      "support": [
+        295.01,
+        278.43
+      ],
+      "resistance": [
+        394.37,
+        402.05
+      ]
+    },
+    "rs_vs_spy": -11.08,
+    "earnings_date": "2026-07-24",
+    "earnings_risk": false
+  },
+  {
+    "symbol": "SPY",
+    "price": 759.57,
+    "change_1d": 0.14,
+    "verdict": "REDUCE",
+    "score": 0,
+    "summary": "SPY is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 75.7 (overbought). Relative strength vs SPY: underperforming (+0.0%).",
+    "moomoo": {
+      "note": "Trim SPY into current strength.",
+      "avoid": "Do not add. Pullback risk is elevated."
+    },
+    "signals": {
+      "daily": {
+        "close": 759.57,
+        "ema20": 741.8,
+        "ema50": 719.63,
+        "ema200": 679.67,
+        "rsi": 75.7,
+        "rsi_label": "overbought",
+        "macd": "bearish",
+        "ema_stack": "bullish",
+        "volume": "normal",
+        "vol_ratio": 0.68
+      }
+    },
+    "levels": {
+      "support": [
+        653.33,
+        644.38
+      ],
+      "resistance": [
+        744.05,
+        755.3
+      ]
+    },
+    "rs_vs_spy": 0.0,
+    "earnings_date": null,
+    "earnings_risk": false
+  },
+  {
+    "symbol": "QQQ",
+    "price": 746.16,
+    "change_1d": 0.46,
+    "verdict": "HOLD",
+    "score": 4,
+    "summary": "QQQ is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 79.4 (overbought). Relative strength vs SPY: outperforming (+4.8%).",
+    "moomoo": {
+      "note": "Hold existing QQQ position. No aggressive adds yet.",
+      "avoid": "Do not add until a clearer signal forms."
+    },
+    "signals": {
+      "daily": {
+        "close": 746.16,
+        "ema20": 713.7,
+        "ema50": 677.04,
+        "ema200": 621.24,
+        "rsi": 79.4,
+        "rsi_label": "overbought",
+        "macd": "bullish",
+        "ema_stack": "bullish",
+        "volume": "normal",
+        "vol_ratio": 0.76
+      }
+    },
+    "levels": {
+      "support": [
+        584.28,
+        571.53
+      ],
+      "resistance": [
+        716.72,
+        736.85
+      ]
+    },
+    "rs_vs_spy": 4.79,
+    "earnings_date": null,
+    "earnings_risk": false
+  }
+]
