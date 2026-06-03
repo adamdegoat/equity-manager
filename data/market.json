@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 16.06,
-    "change": 1.84,
+    "value": 16.09,
+    "change": 2.03,
     "label": "Normal"
   },
   "sectors": {
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "My husband and I are 75. We have $1.5 million in stocks and $425,000 in savings. Is that too much cash?",
-      "url": "https://www.marketwatch.com/story/my-husband-and-i-are-75-we-have-1-5-million-in-stocks-and-425-000-in-savings-is-that-too-much-cash-c9385f9f?mod=mw_rss_topstories",
+      "title": "The hottest stock market in the world has doubled this year. Now Goldman Sachs sees another 40% gain from here.",
+      "url": "https://www.marketwatch.com/story/the-hottest-stock-market-in-the-world-has-doubled-this-year-now-goldman-sachs-sees-another-40-gain-from-here-bb6c49c7?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
