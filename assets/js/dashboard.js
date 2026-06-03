@@ -141,8 +141,10 @@ function _stockCard(s) {
   const rStr   = s.rs_vs_spy != null ? (s.rs_vs_spy > 0 ? '+' : '') + s.rs_vs_spy.toFixed(2) + '% vs SPY' : '';
   const earn   = s.earnings_risk ? `⚠ Earnings: ${s.earnings_date}` : '';
   const action = (s.moomoo || {}).note || '';
-  const supp   = lvl.support  ? 'S: $' + lvl.support.toFixed(2)   : '';
-  const res    = lvl.resistance ? 'R: $' + lvl.resistance.toFixed(2) : '';
+  const suppVal = Array.isArray(lvl.support)    ? lvl.support[0]    : lvl.support;
+  const resVal  = Array.isArray(lvl.resistance) ? lvl.resistance[0] : lvl.resistance;
+  const supp    = suppVal ? 'S: $' + Number(suppVal).toFixed(2) : '';
+  const res     = resVal  ? 'R: $' + Number(resVal).toFixed(2)  : '';
 
   return `<div class="stock-card ${v}">
     <div class="sc-header">
