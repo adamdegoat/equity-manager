@@ -269,7 +269,7 @@
     "change_1d": 4.02,
     "verdict": "HOLD",
     "score": 8,
-    "summary": "AMD is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 77.8 (overbought). Relative strength vs SPY: outperforming (+41.5%). Sector: Technology.",
+    "summary": "AMD is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 77.8 (overbought). Relative strength vs SPY: outperforming (+41.5%).",
     "moomoo": {
       "note": "Hold existing AMD position. No aggressive adds yet.",
       "avoid": "Do not add until a clearer signal forms."
@@ -305,7 +305,7 @@
     "rs_6m": 90.53,
     "earnings_date": "2026-08-05",
     "earnings_risk": false,
-    "sector": "Technology"
+    "sector": ""
   },
   {
     "symbol": "GOOGL",
