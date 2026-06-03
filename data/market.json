@@ -5,23 +5,23 @@
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 756.79,
-    "change_1d": -0.37,
-    "change_20d": 4.56,
+    "price": 756.32,
+    "change_1d": -0.43,
+    "change_20d": 4.5,
     "signals": {
       "daily": {
-        "close": 756.79,
-        "ema20": 743.22,
-        "ema50": 721.09,
+        "close": 756.32,
+        "ema20": 743.18,
+        "ema50": 721.07,
         "ema200": 680.44,
-        "rsi": 71.5,
+        "rsi": 70.8,
         "rsi_label": "overbought",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.2,
+        "vol_ratio": 0.22,
         "atr": 6.43,
-        "week52_pct": 98.4
+        "week52_pct": 98.1
       }
     },
     "levels": {
@@ -37,23 +37,23 @@
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 746.4,
-    "change_1d": 0.03,
-    "change_20d": 9.51,
+    "price": 746.04,
+    "change_1d": -0.02,
+    "change_20d": 9.45,
     "signals": {
       "daily": {
-        "close": 746.4,
-        "ema20": 716.81,
-        "ema50": 679.76,
-        "ema200": 622.49,
-        "rsi": 79.4,
+        "close": 746.04,
+        "ema20": 716.78,
+        "ema50": 679.75,
+        "ema200": 622.48,
+        "rsi": 79.2,
         "rsi_label": "overbought",
         "macd": "bullish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.35,
+        "vol_ratio": 0.39,
         "atr": 9.9,
-        "week52_pct": 100.0
+        "week52_pct": 99.9
       }
     },
     "levels": {
@@ -68,25 +68,25 @@
     }
   },
   "vix": {
-    "value": 16.08,
-    "change": 1.97,
+    "value": 15.98,
+    "change": 1.33,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 196.95,
-      "change_1d": -0.64,
-      "rsi": 80.9,
+      "price": 196.81,
+      "change_1d": -0.71,
+      "rsi": 80.6,
       "rsi_label": "overbought",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 50.65,
-      "change_1d": -1.57,
-      "rsi": 40.3,
-      "rsi_label": "neutral",
+      "price": 50.53,
+      "change_1d": -1.81,
+      "rsi": 39.2,
+      "rsi_label": "weak",
       "ema_stack": "mixed"
     },
     "XLV": {
@@ -99,39 +99,39 @@
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 117.32,
-      "change_1d": -0.23,
-      "rsi": 46.7,
+      "price": 117.36,
+      "change_1d": -0.2,
+      "rsi": 46.8,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLE": {
       "name": "Energy",
-      "price": 58.81,
-      "change_1d": 1.47,
+      "price": 58.8,
+      "change_1d": 1.45,
       "rsi": 54.7,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLI": {
       "name": "Industrials",
-      "price": 175.26,
-      "change_1d": 0.61,
-      "rsi": 57.4,
+      "price": 175.8,
+      "change_1d": 0.92,
+      "rsi": 58.5,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": 112.84,
-      "change_1d": -0.64,
-      "rsi": 34.8,
+      "price": 112.61,
+      "change_1d": -0.85,
+      "rsi": 34.1,
       "rsi_label": "weak",
       "ema_stack": "bearish"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 289.21,
+      "price": 289.2,
       "change_1d": -0.84,
       "rsi": 60.2,
       "rsi_label": "bullish momentum",
@@ -139,17 +139,17 @@
     },
     "TLT": {
       "name": "20yr Treasuries",
-      "price": 85.39,
-      "change_1d": -0.3,
-      "rsi": 52.3,
+      "price": 85.32,
+      "change_1d": -0.39,
+      "rsi": 51.6,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "HYG": {
       "name": "High Yield",
-      "price": 79.74,
-      "change_1d": -0.2,
-      "rsi": 54.1,
+      "price": 79.71,
+      "change_1d": -0.24,
+      "rsi": 53.6,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     }
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Investors would be crazy to turn bearish on stocks now, says veteran strategist. In six months, maybe not.",
-      "url": "https://www.marketwatch.com/story/investors-would-be-crazy-to-turn-bearish-on-stocks-now-says-veteran-strategist-maybe-not-in-six-months-5c62a9d2?mod=mw_rss_topstories",
+      "title": "The hottest stock market in the world has doubled this year. And Goldman Sachs sees another 40% gain from here.",
+      "url": "https://www.marketwatch.com/story/the-hottest-stock-market-in-the-world-has-doubled-this-year-now-goldman-sachs-sees-another-40-gain-from-here-bb6c49c7?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
