@@ -5,23 +5,23 @@
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 756.64,
-    "change_1d": -0.39,
-    "change_20d": 4.54,
+    "price": 756.79,
+    "change_1d": -0.37,
+    "change_20d": 4.56,
     "signals": {
       "daily": {
-        "close": 756.64,
-        "ema20": 743.21,
-        "ema50": 721.08,
+        "close": 756.79,
+        "ema20": 743.22,
+        "ema50": 721.09,
         "ema200": 680.44,
-        "rsi": 71.2,
+        "rsi": 71.5,
         "rsi_label": "overbought",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.17,
+        "vol_ratio": 0.2,
         "atr": 6.43,
-        "week52_pct": 98.3
+        "week52_pct": 98.4
       }
     },
     "levels": {
@@ -37,23 +37,23 @@
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 745.61,
-    "change_1d": -0.07,
-    "change_20d": 9.39,
+    "price": 746.4,
+    "change_1d": 0.03,
+    "change_20d": 9.51,
     "signals": {
       "daily": {
-        "close": 745.61,
-        "ema20": 716.74,
-        "ema50": 679.73,
-        "ema200": 622.48,
-        "rsi": 78.8,
+        "close": 746.4,
+        "ema20": 716.81,
+        "ema50": 679.76,
+        "ema200": 622.49,
+        "rsi": 79.4,
         "rsi_label": "overbought",
         "macd": "bullish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.3,
+        "vol_ratio": 0.35,
         "atr": 9.9,
-        "week52_pct": 99.8
+        "week52_pct": 100.0
       }
     },
     "levels": {
@@ -68,73 +68,73 @@
     }
   },
   "vix": {
-    "value": 16.25,
-    "change": 3.04,
+    "value": 16.08,
+    "change": 1.97,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 196.55,
-      "change_1d": -0.84,
-      "rsi": 80.0,
+      "price": 196.95,
+      "change_1d": -0.64,
+      "rsi": 80.9,
       "rsi_label": "overbought",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 50.62,
-      "change_1d": -1.63,
-      "rsi": 40.0,
-      "rsi_label": "weak",
+      "price": 50.65,
+      "change_1d": -1.57,
+      "rsi": 40.3,
+      "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 147.32,
-      "change_1d": 0.63,
-      "rsi": 50.3,
+      "price": 147.11,
+      "change_1d": 0.48,
+      "rsi": 49.6,
       "rsi_label": "neutral",
       "ema_stack": "bearish"
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 117.35,
-      "change_1d": -0.2,
-      "rsi": 46.8,
+      "price": 117.32,
+      "change_1d": -0.23,
+      "rsi": 46.7,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLE": {
       "name": "Energy",
-      "price": 58.74,
-      "change_1d": 1.35,
-      "rsi": 54.4,
+      "price": 58.81,
+      "change_1d": 1.47,
+      "rsi": 54.7,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLI": {
       "name": "Industrials",
-      "price": 174.88,
-      "change_1d": 0.4,
-      "rsi": 56.5,
+      "price": 175.26,
+      "change_1d": 0.61,
+      "rsi": 57.4,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": 113.07,
-      "change_1d": -0.44,
-      "rsi": 35.6,
+      "price": 112.84,
+      "change_1d": -0.64,
+      "rsi": 34.8,
       "rsi_label": "weak",
       "ema_stack": "bearish"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 288.61,
-      "change_1d": -1.05,
-      "rsi": 59.2,
-      "rsi_label": "neutral",
+      "price": 289.21,
+      "change_1d": -0.84,
+      "rsi": 60.2,
+      "rsi_label": "bullish momentum",
       "ema_stack": "bullish"
     },
     "TLT": {
@@ -147,9 +147,9 @@
     },
     "HYG": {
       "name": "High Yield",
-      "price": 79.72,
-      "change_1d": -0.23,
-      "rsi": 53.8,
+      "price": 79.74,
+      "change_1d": -0.2,
+      "rsi": 54.1,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     }
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Three reasons Palo Alto Networks\u2019 stock is falling in the face of upbeat earnings",
-      "url": "https://www.marketwatch.com/story/three-reasons-palo-alto-networks-stock-is-falling-in-the-face-of-upbeat-earnings-7ded9f15?mod=mw_rss_topstories",
+      "title": "Investors would be crazy to turn bearish on stocks now, says veteran strategist. In six months, maybe not.",
+      "url": "https://www.marketwatch.com/story/investors-would-be-crazy-to-turn-bearish-on-stocks-now-says-veteran-strategist-maybe-not-in-six-months-5c62a9d2?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
