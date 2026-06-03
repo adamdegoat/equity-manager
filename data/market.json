@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 16.09,
-    "change": 2.03,
+    "value": 16.07,
+    "change": 1.9,
     "label": "Normal"
   },
   "sectors": {
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "The hottest stock market in the world has doubled this year. Now Goldman Sachs sees another 40% gain from here.",
-      "url": "https://www.marketwatch.com/story/the-hottest-stock-market-in-the-world-has-doubled-this-year-now-goldman-sachs-sees-another-40-gain-from-here-bb6c49c7?mod=mw_rss_topstories",
+      "title": "Investors would be crazy to turn bearish on stocks now, says veteran strategist. Maybe not, in six months.",
+      "url": "https://www.marketwatch.com/story/investors-would-be-crazy-to-turn-bearish-on-stocks-now-says-veteran-strategist-maybe-not-in-six-months-5c62a9d2?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
