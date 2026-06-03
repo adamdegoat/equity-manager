@@ -136,8 +136,8 @@
     "price": 597.63,
     "change_1d": -0.47,
     "verdict": "AVOID",
-    "score": -3,
-    "summary": "META is below its key moving averages \u2014 downtrend in control. RSI at 40.7 (neutral). Relative strength vs SPY: underperforming (-7.5%). Sector: Communication Services.",
+    "score": -5,
+    "summary": "META is below its key moving averages \u2014 downtrend in control. RSI at 40.7 (neutral). Relative strength vs SPY: underperforming (-7.5%).",
     "moomoo": {
       "note": "No exposure to META until conditions improve.",
       "avoid": "Do not buy. Wait for trend to recover."
@@ -173,7 +173,7 @@
     "rs_6m": -16.02,
     "earnings_date": "2026-07-30",
     "earnings_risk": false,
-    "sector": "Communication Services"
+    "sector": ""
   },
   {
     "symbol": "AMZN",
