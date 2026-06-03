@@ -19,7 +19,9 @@
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.68
+        "vol_ratio": 0.68,
+        "atr": 6.56,
+        "week52_pct": 100.0
       }
     },
     "levels": {
@@ -49,7 +51,9 @@
         "macd": "bullish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.76
+        "vol_ratio": 0.76,
+        "atr": 10.08,
+        "week52_pct": 100.0
       }
     },
     "levels": {
@@ -64,9 +68,91 @@
     }
   },
   "vix": {
-    "value": 16.09,
-    "change": 2.03,
+    "value": 16.05,
+    "change": 1.78,
     "label": "Normal"
+  },
+  "sectors": {
+    "XLK": {
+      "name": "Technology",
+      "price": 198.21,
+      "change_1d": 1.25,
+      "rsi": 83.9,
+      "rsi_label": "overbought",
+      "ema_stack": "bullish"
+    },
+    "XLF": {
+      "name": "Financials",
+      "price": 51.46,
+      "change_1d": 0.06,
+      "rsi": 49.7,
+      "rsi_label": "neutral",
+      "ema_stack": "mixed"
+    },
+    "XLV": {
+      "name": "Healthcare",
+      "price": 146.4,
+      "change_1d": -0.97,
+      "rsi": 46.8,
+      "rsi_label": "neutral",
+      "ema_stack": "bearish"
+    },
+    "XLY": {
+      "name": "Consumer Disc.",
+      "price": 117.59,
+      "change_1d": -0.51,
+      "rsi": 47.7,
+      "rsi_label": "neutral",
+      "ema_stack": "mixed"
+    },
+    "XLE": {
+      "name": "Energy",
+      "price": 57.96,
+      "change_1d": 1.15,
+      "rsi": 49.2,
+      "rsi_label": "neutral",
+      "ema_stack": "mixed"
+    },
+    "XLI": {
+      "name": "Industrials",
+      "price": 174.19,
+      "change_1d": 1.04,
+      "rsi": 54.7,
+      "rsi_label": "neutral",
+      "ema_stack": "bullish"
+    },
+    "XLC": {
+      "name": "Comm. Services",
+      "price": 113.57,
+      "change_1d": -1.76,
+      "rsi": 37.7,
+      "rsi_label": "weak",
+      "ema_stack": "mixed"
+    },
+    "IWM": {
+      "name": "Small Caps",
+      "price": 291.66,
+      "change_1d": 0.93,
+      "rsi": 64.6,
+      "rsi_label": "bullish momentum",
+      "ema_stack": "bullish"
+    },
+    "TLT": {
+      "name": "20yr Treasuries",
+      "price": 85.65,
+      "change_1d": 0.21,
+      "rsi": 55.4,
+      "rsi_label": "neutral",
+      "ema_stack": "mixed"
+    },
+    "HYG": {
+      "name": "High Yield",
+      "price": 79.9,
+      "change_1d": 0.08,
+      "rsi": 58.9,
+      "rsi_label": "neutral",
+      "ema_stack": "bullish"
+    }
   },
   "news": [
     {
@@ -90,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "The late Richard Simmons\u2019 L.A. estate returns to the market with a new sales strategy\u2014and a lower price",
-      "url": "https://www.marketwatch.com/story/the-late-richard-simmons-l-a-estate-returns-to-the-market-with-a-new-sales-strategyand-a-lower-price-091b5e0f?mod=mw_rss_topstories",
+      "title": "The hottest stock market in the world has doubled this year. Now Goldman Sachs sees another 40% gain from here.",
+      "url": "https://www.marketwatch.com/story/the-hottest-stock-market-in-the-world-has-doubled-this-year-now-goldman-sachs-sees-another-40-gain-from-here-bb6c49c7?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
