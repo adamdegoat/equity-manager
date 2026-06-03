@@ -36,9 +36,9 @@
         230.07
       ]
     },
-    "rs_vs_spy": 5.49,
-    "rs_3m": 7.63,
-    "rs_6m": 9.69,
+    "rs_vs_spy": 5.48,
+    "rs_3m": 7.61,
+    "rs_6m": 9.68,
     "earnings_date": "2026-08-27",
     "earnings_risk": false,
     "sector": "Technology"
@@ -80,9 +80,9 @@
         447.87
       ]
     },
-    "rs_vs_spy": 5.01,
-    "rs_3m": -3.82,
-    "rs_6m": -9.09,
+    "rs_vs_spy": 4.99,
+    "rs_3m": -3.84,
+    "rs_6m": -9.1,
     "earnings_date": "2026-07-23",
     "earnings_risk": false,
     "sector": "Consumer Cyclical"
@@ -124,9 +124,9 @@
         313.35
       ]
     },
-    "rs_vs_spy": 4.86,
-    "rs_3m": 7.29,
-    "rs_6m": -0.67,
+    "rs_vs_spy": 4.85,
+    "rs_3m": 7.27,
+    "rs_6m": -0.68,
     "earnings_date": "2026-07-31",
     "earnings_risk": false,
     "sector": "Technology"
@@ -168,9 +168,9 @@
         680.76
       ]
     },
-    "rs_vs_spy": -0.85,
-    "rs_3m": -14.84,
-    "rs_6m": -10.43,
+    "rs_vs_spy": -0.86,
+    "rs_3m": -14.85,
+    "rs_6m": -10.44,
     "earnings_date": "2026-07-30",
     "earnings_risk": false,
     "sector": "Communication Services"
@@ -212,9 +212,9 @@
         276.13
       ]
     },
-    "rs_vs_spy": -12.88,
-    "rs_3m": 5.2,
-    "rs_6m": -2.54,
+    "rs_vs_spy": -12.89,
+    "rs_3m": 5.19,
+    "rs_6m": -2.56,
     "earnings_date": "2026-07-31",
     "earnings_risk": false,
     "sector": "Consumer Cyclical"
@@ -225,7 +225,7 @@
     "change_1d": -3.17,
     "verdict": "REDUCE",
     "score": 5,
-    "summary": "MSFT is showing mixed trend signals \u2014 no clear directional bias. RSI at 52.8 (neutral). Relative strength vs SPY: outperforming (+0.4%). Sector: Technology.",
+    "summary": "MSFT is showing mixed trend signals \u2014 no clear directional bias. RSI at 52.8 (neutral). Relative strength vs SPY: outperforming (+0.3%). Sector: Technology.",
     "moomoo": {
       "note": "Trim MSFT into current strength.",
       "avoid": "Do not add. Pullback risk is elevated."
@@ -256,9 +256,9 @@
         440.89
       ]
     },
-    "rs_vs_spy": 0.35,
-    "rs_3m": -3.44,
-    "rs_6m": -21.38,
+    "rs_vs_spy": 0.33,
+    "rs_3m": -3.45,
+    "rs_6m": -21.4,
     "earnings_date": "2026-07-30",
     "earnings_risk": false,
     "sector": "Technology"
@@ -300,9 +300,9 @@
         522.02
       ]
     },
-    "rs_vs_spy": 41.51,
-    "rs_3m": 95.44,
-    "rs_6m": 90.55,
+    "rs_vs_spy": 41.5,
+    "rs_3m": 95.42,
+    "rs_6m": 90.53,
     "earnings_date": "2026-08-05",
     "earnings_risk": false,
     "sector": "Technology"
@@ -344,31 +344,31 @@
         402.05
       ]
     },
-    "rs_vs_spy": -11.7,
-    "rs_3m": 8.39,
-    "rs_6m": 4.09,
+    "rs_vs_spy": -11.72,
+    "rs_3m": 8.37,
+    "rs_6m": 4.08,
     "earnings_date": "2026-07-24",
     "earnings_risk": false,
     "sector": "Communication Services"
   },
   {
     "symbol": "SPY",
-    "price": 754.13,
-    "change_1d": -0.72,
+    "price": 754.24,
+    "change_1d": -0.7,
     "verdict": "REDUCE",
     "score": 2,
-    "summary": "SPY is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 67.8 (bullish momentum). Relative strength vs SPY: underperforming (+0.0%).",
+    "summary": "SPY is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 68.0 (bullish momentum). Relative strength vs SPY: underperforming (+0.0%).",
     "moomoo": {
       "note": "Trim SPY into current strength.",
       "avoid": "Do not add. Pullback risk is elevated."
     },
     "signals": {
       "daily": {
-        "close": 754.13,
-        "ema20": 742.97,
-        "ema50": 720.98,
+        "close": 754.24,
+        "ema20": 742.98,
+        "ema50": 720.99,
         "ema200": 680.4,
-        "rsi": 67.8,
+        "rsi": 68.0,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
@@ -401,7 +401,7 @@
     "change_1d": -0.26,
     "verdict": "HOLD",
     "score": 6,
-    "summary": "QQQ is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 77.3 (overbought). Relative strength vs SPY: outperforming (+4.8%).",
+    "summary": "QQQ is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 77.3 (overbought). Relative strength vs SPY: outperforming (+4.7%).",
     "moomoo": {
       "note": "Hold existing QQQ position. No aggressive adds yet.",
       "avoid": "Do not add until a clearer signal forms."
@@ -432,9 +432,9 @@
         741.83
       ]
     },
-    "rs_vs_spy": 4.75,
-    "rs_3m": 10.22,
-    "rs_6m": 8.44,
+    "rs_vs_spy": 4.73,
+    "rs_3m": 10.21,
+    "rs_6m": 8.43,
     "earnings_date": null,
     "earnings_risk": false,
     "sector": ""

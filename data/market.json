@@ -5,16 +5,16 @@
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 754.13,
-    "change_1d": -0.72,
-    "change_20d": 4.19,
+    "price": 754.24,
+    "change_1d": -0.7,
+    "change_20d": 4.21,
     "signals": {
       "daily": {
-        "close": 754.13,
-        "ema20": 742.97,
-        "ema50": 720.98,
+        "close": 754.24,
+        "ema20": 742.98,
+        "ema50": 720.99,
         "ema200": 680.4,
-        "rsi": 67.8,
+        "rsi": 68.0,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 16.09,
-    "change": 2.03,
+    "value": 16.06,
+    "change": 1.84,
     "label": "Normal"
   },
   "sectors": {
@@ -131,9 +131,9 @@
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 287.61,
-      "change_1d": -1.39,
-      "rsi": 57.7,
+      "price": 287.67,
+      "change_1d": -1.37,
+      "rsi": 57.8,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
