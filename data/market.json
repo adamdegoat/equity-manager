@@ -5,16 +5,16 @@
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 757.16,
-    "change_1d": 0.39,
-    "change_20d": 3.18,
+    "price": 757.09,
+    "change_1d": 0.38,
+    "change_20d": 3.17,
     "signals": {
       "daily": {
-        "close": 757.16,
-        "ema20": 744.33,
+        "close": 757.09,
+        "ema20": 744.32,
         "ema50": 722.4,
-        "ema200": 680.94,
-        "rsi": 69.8,
+        "ema200": 680.93,
+        "rsi": 69.7,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
@@ -68,24 +68,24 @@
     }
   },
   "vix": {
-    "value": 15.38,
-    "change": -4.23,
+    "value": 15.4,
+    "change": -4.11,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 193.12,
-      "change_1d": -1.58,
-      "rsi": 71.4,
+      "price": 193.17,
+      "change_1d": -1.56,
+      "rsi": 71.5,
       "rsi_label": "overbought",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 52.21,
-      "change_1d": 2.63,
-      "rsi": 56.4,
+      "price": 52.19,
+      "change_1d": 2.59,
+      "rsi": 56.2,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
@@ -131,9 +131,9 @@
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 292.0,
+      "price": 292.01,
       "change_1d": 1.51,
-      "rsi": 61.0,
+      "rsi": 61.1,
       "rsi_label": "bullish momentum",
       "ema_stack": "bullish"
     },
@@ -176,9 +176,9 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Elon Musk in a post on X says some of his Trump posts \u2018went too far\u2019 and that he regrets them",
-      "url": "https://www.marketwatch.com/story/elon-musk-in-a-post-on-x-says-some-of-his-trump-posts-went-too-far-and-that-he-regrets-them-90e73a6a?mod=mw_rss_realtimeheadlines",
-      "sentiment": "neutral"
+      "title": "Why Broadcom\u2019s stock is falling so hard after earnings",
+      "url": "https://www.marketwatch.com/story/why-broadcoms-stock-is-falling-so-hard-after-earnings-88c6db5e?mod=mw_rss_topstories",
+      "sentiment": "negative"
     }
   ]
 }

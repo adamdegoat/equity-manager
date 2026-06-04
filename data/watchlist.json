@@ -36,9 +36,9 @@
         230.07
       ]
     },
-    "rs_vs_spy": 2.54,
-    "rs_3m": 8.32,
-    "rs_6m": 10.44,
+    "rs_vs_spy": 2.55,
+    "rs_3m": 8.33,
+    "rs_6m": 10.45,
     "earnings_date": "2026-08-27",
     "earnings_risk": false,
     "sector": "Technology"
@@ -80,9 +80,9 @@
         447.87
       ]
     },
-    "rs_vs_spy": 2.35,
-    "rs_3m": -5.93,
-    "rs_6m": -10.34,
+    "rs_vs_spy": 2.36,
+    "rs_3m": -5.92,
+    "rs_6m": -10.33,
     "earnings_date": "2026-07-23",
     "earnings_risk": false,
     "sector": "Consumer Cyclical"
@@ -124,9 +124,9 @@
         313.61
       ]
     },
-    "rs_vs_spy": 4.99,
-    "rs_3m": 7.49,
-    "rs_6m": -1.66,
+    "rs_vs_spy": 5.0,
+    "rs_3m": 7.5,
+    "rs_6m": -1.65,
     "earnings_date": "2026-07-31",
     "earnings_risk": false,
     "sector": "Technology"
@@ -168,9 +168,9 @@
         680.76
       ]
     },
-    "rs_vs_spy": -0.43,
-    "rs_3m": -13.99,
-    "rs_6m": -10.88,
+    "rs_vs_spy": -0.42,
+    "rs_3m": -13.98,
+    "rs_6m": -10.87,
     "earnings_date": "2026-07-30",
     "earnings_risk": false,
     "sector": "Communication Services"
@@ -212,9 +212,9 @@
         276.13
       ]
     },
-    "rs_vs_spy": -10.91,
-    "rs_3m": 4.77,
-    "rs_6m": -1.48,
+    "rs_vs_spy": -10.9,
+    "rs_3m": 4.78,
+    "rs_6m": -1.47,
     "earnings_date": "2026-07-31",
     "earnings_risk": false,
     "sector": "Consumer Cyclical"
@@ -256,9 +256,9 @@
         440.89
       ]
     },
-    "rs_vs_spy": 0.87,
-    "rs_3m": -5.58,
-    "rs_6m": -22.1,
+    "rs_vs_spy": 0.88,
+    "rs_3m": -5.57,
+    "rs_6m": -22.09,
     "earnings_date": "2026-07-30",
     "earnings_risk": false,
     "sector": "Technology"
@@ -300,9 +300,9 @@
         522.73
       ]
     },
-    "rs_vs_spy": 20.32,
+    "rs_vs_spy": 20.33,
     "rs_3m": 92.22,
-    "rs_6m": 88.83,
+    "rs_6m": 88.84,
     "earnings_date": "2026-08-05",
     "earnings_risk": false,
     "sector": "Technology"
@@ -344,31 +344,31 @@
         402.05
       ]
     },
-    "rs_vs_spy": -9.51,
+    "rs_vs_spy": -9.5,
     "rs_3m": 11.85,
-    "rs_6m": 7.26,
+    "rs_6m": 7.27,
     "earnings_date": "2026-07-24",
     "earnings_risk": false,
     "sector": "Communication Services"
   },
   {
     "symbol": "SPY",
-    "price": 757.16,
-    "change_1d": 0.39,
+    "price": 757.09,
+    "change_1d": 0.38,
     "verdict": "REDUCE",
     "score": 2,
-    "summary": "SPY is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 69.8 (bullish momentum). Relative strength vs SPY: underperforming (+0.0%).",
+    "summary": "SPY is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 69.7 (bullish momentum). Relative strength vs SPY: underperforming (+0.0%).",
     "moomoo": {
       "note": "Trim SPY into current strength.",
       "avoid": "Do not add. Pullback risk is elevated."
     },
     "signals": {
       "daily": {
-        "close": 757.16,
-        "ema20": 744.33,
+        "close": 757.09,
+        "ema20": 744.32,
         "ema50": 722.4,
-        "ema200": 680.94,
-        "rsi": 69.8,
+        "ema200": 680.93,
+        "rsi": 69.7,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
@@ -432,9 +432,9 @@
         743.61
       ]
     },
-    "rs_vs_spy": 3.18,
-    "rs_3m": 9.08,
-    "rs_6m": 6.96,
+    "rs_vs_spy": 3.19,
+    "rs_3m": 9.09,
+    "rs_6m": 6.97,
     "earnings_date": null,
     "earnings_risk": false,
     "sector": ""
