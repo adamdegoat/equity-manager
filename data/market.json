@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 16.68,
-    "change": 3.86,
+    "value": 16.6,
+    "change": 3.36,
     "label": "Normal"
   },
   "sectors": {
@@ -176,9 +176,9 @@
       "sentiment": "neutral"
     },
     {
-      "title": "How single-stock turbulence presents \u2018asymmetric\u2019 downside risk for a rather calm S&P 500",
-      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
-      "sentiment": "neutral"
+      "title": "Tech is flashing a warning sign last seen in 2020. Strategist Larry McDonald sees a massive rotation coming.",
+      "url": "https://www.marketwatch.com/story/tech-is-flashing-a-warning-sign-last-seen-in-2020-strategist-larry-mcdonald-sees-a-massive-rotation-coming-c8d5a2fe?mod=mw_rss_topstories",
+      "sentiment": "negative"
     }
   ]
 }
