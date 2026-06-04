@@ -5,23 +5,23 @@
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 755.34,
-    "change_1d": 0.15,
-    "change_20d": 2.93,
+    "price": 755.62,
+    "change_1d": 0.18,
+    "change_20d": 2.97,
     "signals": {
       "daily": {
-        "close": 755.34,
-        "ema20": 744.16,
-        "ema50": 722.33,
+        "close": 755.62,
+        "ema20": 744.18,
+        "ema50": 722.34,
         "ema200": 681.15,
-        "rsi": 68.7,
+        "rsi": 68.9,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.32,
-        "atr": 6.33,
-        "week52_pct": 97.6
+        "vol_ratio": 0.35,
+        "atr": 6.37,
+        "week52_pct": 97.7
       }
     },
     "levels": {
@@ -37,23 +37,23 @@
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 739.31,
-    "change_1d": -0.66,
-    "change_20d": 6.26,
+    "price": 739.85,
+    "change_1d": -0.59,
+    "change_20d": 6.34,
     "signals": {
       "daily": {
-        "close": 739.31,
-        "ema20": 718.77,
-        "ema50": 682.01,
+        "close": 739.85,
+        "ema20": 718.82,
+        "ema50": 682.03,
         "ema200": 623.75,
-        "rsi": 72.3,
+        "rsi": 72.8,
         "rsi_label": "overbought",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.42,
+        "vol_ratio": 0.46,
         "atr": 10.02,
-        "week52_pct": 96.9
+        "week52_pct": 97.2
       }
     },
     "levels": {
@@ -68,80 +68,80 @@
     }
   },
   "vix": {
-    "value": 15.82,
-    "change": -1.49,
+    "value": 15.64,
+    "change": -2.62,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 192.61,
-      "change_1d": -1.84,
-      "rsi": 70.4,
+      "price": 192.68,
+      "change_1d": -1.81,
+      "rsi": 70.5,
       "rsi_label": "overbought",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 52.06,
-      "change_1d": 2.34,
-      "rsi": 55.2,
+      "price": 52.13,
+      "change_1d": 2.48,
+      "rsi": 55.7,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 151.8,
-      "change_1d": 2.88,
-      "rsi": 60.4,
+      "price": 151.83,
+      "change_1d": 2.9,
+      "rsi": 60.5,
       "rsi_label": "bullish momentum",
       "ema_stack": "mixed"
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 117.47,
-      "change_1d": 0.63,
-      "rsi": 46.3,
+      "price": 117.49,
+      "change_1d": 0.65,
+      "rsi": 46.4,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLE": {
       "name": "Energy",
-      "price": 58.9,
-      "change_1d": 0.32,
-      "rsi": 54.5,
+      "price": 58.78,
+      "change_1d": 0.12,
+      "rsi": 54.0,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLI": {
       "name": "Industrials",
-      "price": 175.43,
-      "change_1d": 0.79,
+      "price": 175.45,
+      "change_1d": 0.8,
       "rsi": 55.9,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": 113.83,
-      "change_1d": 1.56,
-      "rsi": 41.5,
+      "price": 113.8,
+      "change_1d": 1.53,
+      "rsi": 41.4,
       "rsi_label": "neutral",
       "ema_stack": "bearish"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 291.45,
-      "change_1d": 1.31,
-      "rsi": 60.5,
+      "price": 291.69,
+      "change_1d": 1.4,
+      "rsi": 60.7,
       "rsi_label": "bullish momentum",
       "ema_stack": "bullish"
     },
     "TLT": {
       "name": "20yr Treasuries",
-      "price": 85.54,
-      "change_1d": 0.27,
-      "rsi": 55.5,
+      "price": 85.6,
+      "change_1d": 0.34,
+      "rsi": 56.0,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Ciena\u2019s stock is tumbling and taking other optical-networking shares down with it",
-      "url": "https://www.marketwatch.com/story/cienas-stock-is-tumbling-and-taking-other-optical-networking-shares-down-with-it-36da0bf7?mod=mw_rss_topstories",
+      "title": "Coal stocks climb as Trump shovels $700 million to the sector",
+      "url": "https://www.marketwatch.com/story/coal-stocks-climb-as-trump-shovels-700-million-to-the-sector-8a61953c?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
