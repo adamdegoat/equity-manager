@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 16.41,
-    "change": 2.18,
+    "value": 16.37,
+    "change": 1.93,
     "label": "Normal"
   },
   "sectors": {
@@ -176,9 +176,9 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Tech is flashing a warning sign last seen in 2020. Strategist Larry McDonald sees a massive rotation coming.",
-      "url": "https://www.marketwatch.com/story/tech-is-flashing-a-warning-sign-last-seen-in-2020-strategist-larry-mcdonald-sees-a-massive-rotation-coming-c8d5a2fe?mod=mw_rss_topstories",
-      "sentiment": "negative"
+      "title": "This investing strategy digs deeper to find hidden stocks riding the AI wave",
+      "url": "https://www.marketwatch.com/story/this-investing-strategy-digs-deeper-to-find-hidden-stocks-riding-the-ai-wave-2cfcccd9?mod=mw_rss_topstories",
+      "sentiment": "neutral"
     }
   ]
 }
