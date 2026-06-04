@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 16.3,
-    "change": 1.49,
+    "value": 16.32,
+    "change": 1.62,
     "label": "Normal"
   },
   "sectors": {
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "How single-stock turbulence presents \u2018asymmetric\u2019 downside risk for a rather calm S&P 500",
-      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
+      "title": "Another redemption wave is spooking the $2 trillion private-credit market",
+      "url": "https://www.marketwatch.com/story/another-redemption-wave-is-spooking-the-2-trillion-private-credit-market-34a64347?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
