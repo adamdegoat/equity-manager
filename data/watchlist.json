@@ -21,7 +21,7 @@
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.94,
+        "vol_ratio": 0.96,
         "atr": 8.07,
         "week52_pct": 82.2
       }
@@ -153,7 +153,7 @@
         "macd": "bullish",
         "ema_stack": "mixed",
         "volume": "normal",
-        "vol_ratio": 1.27,
+        "vol_ratio": 1.32,
         "atr": 17.52,
         "week52_pct": 38.8
       }
@@ -312,7 +312,7 @@
     "price": 372.19,
     "change_1d": 3.68,
     "verdict": "HOLD",
-    "score": 7,
+    "score": 8,
     "summary": "GOOGL is showing mixed trend signals \u2014 no clear directional bias. RSI at 48.7 (neutral). Relative strength vs SPY: underperforming (-9.5%). Sector: Communication Services.",
     "moomoo": {
       "note": "Hold existing GOOGL position. No aggressive adds yet.",
@@ -328,8 +328,8 @@
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "mixed",
-        "volume": "normal",
-        "vol_ratio": 1.36,
+        "volume": "high",
+        "vol_ratio": 1.4,
         "atr": 10.19,
         "week52_pct": 87.2
       }
