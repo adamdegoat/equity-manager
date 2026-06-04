@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 16.36,
-    "change": 1.87,
+    "value": 16.38,
+    "change": 1.99,
     "label": "Normal"
   },
   "sectors": {
@@ -176,9 +176,9 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Another redemption wave is spooking the $2 trillion private-credit market",
-      "url": "https://www.marketwatch.com/story/another-redemption-wave-is-spooking-the-2-trillion-private-credit-market-34a64347?mod=mw_rss_topstories",
-      "sentiment": "neutral"
+      "title": "Maxed out on TSMC, Samsung and SK Hynix, what emerging-market funds are buying now",
+      "url": "https://www.marketwatch.com/story/maxed-out-on-tsmc-samsung-and-sk-hynix-what-emerging-market-funds-are-buying-now-baf9e828?mod=mw_rss_topstories",
+      "sentiment": "positive"
     }
   ]
 }
