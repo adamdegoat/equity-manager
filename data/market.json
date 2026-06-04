@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 16.38,
-    "change": 1.99,
+    "value": 16.5,
+    "change": 2.74,
     "label": "Normal"
   },
   "sectors": {
@@ -176,9 +176,9 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Maxed out on TSMC, Samsung and SK Hynix, what emerging-market funds are buying now",
-      "url": "https://www.marketwatch.com/story/maxed-out-on-tsmc-samsung-and-sk-hynix-what-emerging-market-funds-are-buying-now-baf9e828?mod=mw_rss_topstories",
-      "sentiment": "positive"
+      "title": "How single-stock turbulence presents \u2018asymmetric\u2019 downside risk for a rather calm S&P 500",
+      "url": "https://www.marketwatch.com/story/how-single-stock-turbulence-presents-asymmetric-downside-risk-for-a-rather-calm-s-p-500-9748b2d8?mod=mw_rss_topstories",
+      "sentiment": "neutral"
     }
   ]
 }
