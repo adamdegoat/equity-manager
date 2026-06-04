@@ -1,6 +1,6 @@
 {
   "market_status": "closed",
-  "market_label": "Closed",
+  "market_label": "Overnight",
   "regime": "BULL",
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
@@ -19,7 +19,7 @@
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.94,
+        "vol_ratio": 1.09,
         "atr": 6.52,
         "week52_pct": 96.9
       }
@@ -51,7 +51,7 @@
         "macd": "bullish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.97,
+        "vol_ratio": 1.02,
         "atr": 9.9,
         "week52_pct": 99.1
       }

@@ -21,7 +21,7 @@
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "normal",
-        "vol_ratio": 0.85,
+        "vol_ratio": 0.91,
         "atr": 7.88,
         "week52_pct": 78.1
       }
@@ -65,7 +65,7 @@
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.86,
+        "vol_ratio": 0.87,
         "atr": 15.22,
         "week52_pct": 67.7
       }
@@ -109,7 +109,7 @@
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 1.06,
+        "vol_ratio": 1.07,
         "atr": 6.07,
         "week52_pct": 95.9
       }
@@ -135,12 +135,12 @@
     "symbol": "META",
     "price": 622.98,
     "change_1d": 4.24,
-    "verdict": "REDUCE",
-    "score": 5,
+    "verdict": "HOLD",
+    "score": 6,
     "summary": "META is showing mixed trend signals \u2014 no clear directional bias. RSI at 51.5 (neutral). Relative strength vs SPY: underperforming (-0.9%). Sector: Communication Services.",
     "moomoo": {
-      "note": "Trim META into current strength.",
-      "avoid": "Do not add. Pullback risk is elevated."
+      "note": "Hold existing META position. No aggressive adds yet.",
+      "avoid": "Do not add until a clearer signal forms."
     },
     "signals": {
       "daily": {
@@ -152,8 +152,8 @@
         "rsi_label": "neutral",
         "macd": "bullish",
         "ema_stack": "mixed",
-        "volume": "normal",
-        "vol_ratio": 1.3,
+        "volume": "high",
+        "vol_ratio": 1.45,
         "atr": 17.35,
         "week52_pct": 37.1
       }
@@ -197,7 +197,7 @@
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "normal",
-        "vol_ratio": 1.28,
+        "vol_ratio": 1.29,
         "atr": 7.05,
         "week52_pct": 67.2
       }
@@ -241,7 +241,7 @@
         "macd": "bullish",
         "ema_stack": "mixed",
         "volume": "normal",
-        "vol_ratio": 0.97,
+        "vol_ratio": 1.05,
         "atr": 12.94,
         "week52_pct": 39.1
       }
@@ -285,7 +285,7 @@
         "macd": "bullish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.77,
+        "vol_ratio": 0.79,
         "atr": 25.92,
         "week52_pct": 100.0
       }
@@ -329,7 +329,7 @@
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "high",
-        "vol_ratio": 1.76,
+        "vol_ratio": 1.84,
         "atr": 9.81,
         "week52_pct": 81.7
       }
@@ -373,7 +373,7 @@
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.94,
+        "vol_ratio": 1.09,
         "atr": 6.52,
         "week52_pct": 96.9
       }
@@ -417,7 +417,7 @@
         "macd": "bullish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.97,
+        "vol_ratio": 1.02,
         "atr": 9.9,
         "week52_pct": 99.1
       }
