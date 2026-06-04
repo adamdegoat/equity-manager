@@ -1,6 +1,6 @@
 {
-  "market_status": "afterhours",
-  "market_label": "After Hours",
+  "market_status": "closed",
+  "market_label": "Closed",
   "regime": "BULL",
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
