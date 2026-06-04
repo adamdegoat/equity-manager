@@ -5,23 +5,23 @@
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 758.04,
-    "change_1d": 0.5,
-    "change_20d": 3.3,
+    "price": 757.87,
+    "change_1d": 0.48,
+    "change_20d": 3.28,
     "signals": {
       "daily": {
-        "close": 758.04,
-        "ema20": 744.41,
-        "ema50": 722.44,
-        "ema200": 681.18,
-        "rsi": 70.3,
+        "close": 757.87,
+        "ema20": 744.4,
+        "ema50": 722.43,
+        "ema200": 681.17,
+        "rsi": 70.2,
         "rsi_label": "overbought",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.71,
-        "atr": 6.52,
-        "week52_pct": 99.1
+        "vol_ratio": 0.79,
+        "atr": 6.54,
+        "week52_pct": 99.0
       }
     },
     "levels": {
@@ -31,29 +31,29 @@
       ],
       "resistance": [
         749.03,
-        758.13
+        758.33
       ]
     }
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 742.84,
-    "change_1d": -0.18,
-    "change_20d": 6.77,
+    "price": 742.28,
+    "change_1d": -0.26,
+    "change_20d": 6.68,
     "signals": {
       "daily": {
-        "close": 742.84,
-        "ema20": 719.1,
-        "ema50": 682.15,
+        "close": 742.28,
+        "ema20": 719.05,
+        "ema50": 682.13,
         "ema200": 623.78,
-        "rsi": 75.8,
+        "rsi": 75.2,
         "rsi_label": "overbought",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.79,
+        "vol_ratio": 0.82,
         "atr": 10.02,
-        "week52_pct": 98.5
+        "week52_pct": 98.3
       }
     },
     "levels": {
@@ -63,85 +63,85 @@
       ],
       "resistance": [
         722.04,
-        743.54
+        743.61
       ]
     }
   },
   "vix": {
-    "value": 15.37,
-    "change": -4.3,
+    "value": 15.32,
+    "change": -4.61,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 194.33,
-      "change_1d": -0.97,
-      "rsi": 73.9,
+      "price": 194.03,
+      "change_1d": -1.12,
+      "rsi": 73.2,
       "rsi_label": "overbought",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 52.17,
-      "change_1d": 2.56,
+      "price": 52.18,
+      "change_1d": 2.58,
       "rsi": 56.1,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 151.87,
-      "change_1d": 2.93,
-      "rsi": 60.5,
+      "price": 151.93,
+      "change_1d": 2.97,
+      "rsi": 60.7,
       "rsi_label": "bullish momentum",
       "ema_stack": "mixed"
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 117.27,
-      "change_1d": 0.46,
-      "rsi": 45.6,
+      "price": 117.25,
+      "change_1d": 0.45,
+      "rsi": 45.5,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLE": {
       "name": "Energy",
-      "price": 58.78,
-      "change_1d": 0.12,
-      "rsi": 54.0,
+      "price": 58.77,
+      "change_1d": 0.1,
+      "rsi": 53.9,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLI": {
       "name": "Industrials",
-      "price": 176.32,
-      "change_1d": 1.3,
-      "rsi": 57.8,
+      "price": 176.05,
+      "change_1d": 1.15,
+      "rsi": 57.3,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": 112.77,
-      "change_1d": 0.62,
-      "rsi": 35.9,
+      "price": 112.95,
+      "change_1d": 0.78,
+      "rsi": 36.9,
       "rsi_label": "weak",
       "ema_stack": "bearish"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 292.48,
-      "change_1d": 1.67,
-      "rsi": 61.5,
+      "price": 292.58,
+      "change_1d": 1.71,
+      "rsi": 61.6,
       "rsi_label": "bullish momentum",
       "ema_stack": "bullish"
     },
     "TLT": {
       "name": "20yr Treasuries",
-      "price": 85.53,
-      "change_1d": 0.26,
-      "rsi": 55.4,
+      "price": 85.49,
+      "change_1d": 0.21,
+      "rsi": 55.0,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
@@ -149,7 +149,7 @@
       "name": "High Yield",
       "price": 79.82,
       "change_1d": 0.18,
-      "rsi": 54.2,
+      "rsi": 54.3,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     }
@@ -176,9 +176,9 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Micron flirts with record market-cap wipeout as Broadcom casts a shadow over chip stocks",
-      "url": "https://www.marketwatch.com/story/micron-flirts-with-record-market-cap-wipeout-as-broadcom-casts-a-shadow-over-chip-stocks-b08f64ed?mod=mw_rss_topstories",
-      "sentiment": "positive"
+      "title": "Elon Musk in a post on X says some of his Trump posts \u2018went too far\u2019 and that he regrets them",
+      "url": "https://www.marketwatch.com/story/elon-musk-in-a-post-on-x-says-some-of-his-trump-posts-went-too-far-and-that-he-regrets-them-90e73a6a?mod=mw_rss_realtimeheadlines",
+      "sentiment": "neutral"
     }
   ]
 }
