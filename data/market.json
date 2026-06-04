@@ -5,23 +5,23 @@
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 752.89,
-    "change_1d": -0.18,
-    "change_20d": 2.6,
+    "price": 752.63,
+    "change_1d": -0.21,
+    "change_20d": 2.56,
     "signals": {
       "daily": {
-        "close": 752.89,
-        "ema20": 743.92,
-        "ema50": 722.24,
+        "close": 752.63,
+        "ema20": 743.9,
+        "ema50": 722.23,
         "ema200": 681.12,
-        "rsi": 66.1,
+        "rsi": 65.8,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.13,
+        "vol_ratio": 0.16,
         "atr": 6.25,
-        "week52_pct": 96.1
+        "week52_pct": 96.0
       }
     },
     "levels": {
@@ -37,23 +37,23 @@
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 735.38,
-    "change_1d": -1.19,
-    "change_20d": 5.69,
+    "price": 733.57,
+    "change_1d": -1.43,
+    "change_20d": 5.43,
     "signals": {
       "daily": {
-        "close": 735.38,
-        "ema20": 718.39,
-        "ema50": 681.86,
-        "ema200": 623.71,
-        "rsi": 68.6,
+        "close": 733.57,
+        "ema20": 718.22,
+        "ema50": 681.79,
+        "ema200": 623.69,
+        "rsi": 67.1,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.23,
-        "atr": 9.96,
-        "week52_pct": 95.2
+        "vol_ratio": 0.29,
+        "atr": 10.02,
+        "week52_pct": 94.4
       }
     },
     "levels": {
@@ -68,72 +68,72 @@
     }
   },
   "vix": {
-    "value": 16.11,
-    "change": 0.31,
+    "value": 15.99,
+    "change": -0.44,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 190.78,
-      "change_1d": -2.78,
-      "rsi": 67.1,
+      "price": 189.96,
+      "change_1d": -3.2,
+      "rsi": 65.7,
       "rsi_label": "bullish momentum",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 51.92,
-      "change_1d": 2.06,
-      "rsi": 53.8,
+      "price": 52.18,
+      "change_1d": 2.58,
+      "rsi": 56.1,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 151.78,
-      "change_1d": 2.87,
-      "rsi": 60.4,
+      "price": 152.06,
+      "change_1d": 3.06,
+      "rsi": 60.9,
       "rsi_label": "bullish momentum",
       "ema_stack": "mixed"
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 117.8,
-      "change_1d": 0.92,
-      "rsi": 47.5,
+      "price": 117.9,
+      "change_1d": 1.0,
+      "rsi": 47.9,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLE": {
       "name": "Energy",
-      "price": 58.38,
-      "change_1d": -0.56,
-      "rsi": 52.0,
+      "price": 58.33,
+      "change_1d": -0.65,
+      "rsi": 51.8,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLI": {
       "name": "Industrials",
-      "price": 175.21,
-      "change_1d": 0.67,
-      "rsi": 55.4,
+      "price": 174.76,
+      "change_1d": 0.41,
+      "rsi": 54.3,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": 113.84,
-      "change_1d": 1.57,
-      "rsi": 41.6,
+      "price": 114.31,
+      "change_1d": 1.99,
+      "rsi": 43.8,
       "rsi_label": "neutral",
       "ema_stack": "bearish"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 288.78,
-      "change_1d": 0.39,
-      "rsi": 57.7,
+      "price": 288.91,
+      "change_1d": 0.43,
+      "rsi": 57.8,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
@@ -176,9 +176,9 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Tech is flashing a warning sign last seen in 2020. Strategist Larry McDonald sees a massive rotation coming.",
-      "url": "https://www.marketwatch.com/story/tech-is-flashing-a-warning-sign-last-seen-in-2020-strategist-larry-mcdonald-sees-a-massive-rotation-coming-c8d5a2fe?mod=mw_rss_topstories",
-      "sentiment": "negative"
+      "title": "Ciena\u2019s stock is tumbling and taking other optical-networking shares down with it",
+      "url": "https://www.marketwatch.com/story/cienas-stock-is-tumbling-and-taking-other-optical-networking-shares-down-with-it-36da0bf7?mod=mw_rss_topstories",
+      "sentiment": "neutral"
     }
   ]
 }
