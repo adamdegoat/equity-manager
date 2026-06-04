@@ -5,23 +5,23 @@
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 752.63,
-    "change_1d": -0.21,
-    "change_20d": 2.56,
+    "price": 753.92,
+    "change_1d": -0.04,
+    "change_20d": 2.74,
     "signals": {
       "daily": {
-        "close": 752.63,
-        "ema20": 743.9,
-        "ema50": 722.23,
-        "ema200": 681.12,
-        "rsi": 65.8,
+        "close": 753.92,
+        "ema20": 744.02,
+        "ema50": 722.28,
+        "ema200": 681.13,
+        "rsi": 67.5,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.16,
+        "vol_ratio": 0.19,
         "atr": 6.25,
-        "week52_pct": 96.0
+        "week52_pct": 96.7
       }
     },
     "levels": {
@@ -37,23 +37,23 @@
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 733.57,
-    "change_1d": -1.43,
-    "change_20d": 5.43,
+    "price": 736.18,
+    "change_1d": -1.08,
+    "change_20d": 5.81,
     "signals": {
       "daily": {
-        "close": 733.57,
-        "ema20": 718.22,
-        "ema50": 681.79,
-        "ema200": 623.69,
-        "rsi": 67.1,
+        "close": 736.18,
+        "ema20": 718.47,
+        "ema50": 681.89,
+        "ema200": 623.72,
+        "rsi": 69.3,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.29,
+        "vol_ratio": 0.33,
         "atr": 10.02,
-        "week52_pct": 94.4
+        "week52_pct": 95.5
       }
     },
     "levels": {
@@ -68,80 +68,80 @@
     }
   },
   "vix": {
-    "value": 15.99,
-    "change": -0.44,
+    "value": 15.96,
+    "change": -0.62,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 189.96,
-      "change_1d": -3.2,
-      "rsi": 65.7,
+      "price": 190.89,
+      "change_1d": -2.72,
+      "rsi": 67.3,
       "rsi_label": "bullish momentum",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 52.18,
-      "change_1d": 2.58,
-      "rsi": 56.1,
+      "price": 52.12,
+      "change_1d": 2.46,
+      "rsi": 55.7,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 152.06,
-      "change_1d": 3.06,
-      "rsi": 60.9,
+      "price": 152.45,
+      "change_1d": 3.32,
+      "rsi": 61.6,
       "rsi_label": "bullish momentum",
       "ema_stack": "mixed"
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 117.9,
-      "change_1d": 1.0,
-      "rsi": 47.9,
+      "price": 117.79,
+      "change_1d": 0.91,
+      "rsi": 47.4,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLE": {
       "name": "Energy",
-      "price": 58.33,
-      "change_1d": -0.65,
-      "rsi": 51.8,
+      "price": 58.44,
+      "change_1d": -0.46,
+      "rsi": 52.3,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLI": {
       "name": "Industrials",
-      "price": 174.76,
-      "change_1d": 0.41,
-      "rsi": 54.3,
+      "price": 175.14,
+      "change_1d": 0.63,
+      "rsi": 55.2,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": 114.31,
-      "change_1d": 1.99,
+      "price": 114.32,
+      "change_1d": 2.0,
       "rsi": 43.8,
       "rsi_label": "neutral",
       "ema_stack": "bearish"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 288.91,
-      "change_1d": 0.43,
-      "rsi": 57.8,
+      "price": 290.29,
+      "change_1d": 0.91,
+      "rsi": 59.3,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "TLT": {
       "name": "20yr Treasuries",
-      "price": 85.65,
-      "change_1d": 0.4,
-      "rsi": 56.5,
+      "price": 85.62,
+      "change_1d": 0.36,
+      "rsi": 56.3,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
@@ -149,7 +149,7 @@
       "name": "High Yield",
       "price": 79.79,
       "change_1d": 0.14,
-      "rsi": 53.8,
+      "rsi": 53.7,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     }
