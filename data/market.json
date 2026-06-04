@@ -91,11 +91,11 @@
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 146.4,
-      "change_1d": -0.97,
-      "rsi": 46.8,
+      "price": 147.55,
+      "change_1d": 0.79,
+      "rsi": 51.0,
       "rsi_label": "neutral",
-      "ema_stack": "bearish"
+      "ema_stack": "mixed"
     },
     "XLY": {
       "name": "Consumer Disc.",
