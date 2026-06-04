@@ -5,23 +5,23 @@
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 756.9,
-    "change_1d": 0.35,
-    "change_20d": 3.14,
+    "price": 757.18,
+    "change_1d": 0.39,
+    "change_20d": 3.18,
     "signals": {
       "daily": {
-        "close": 756.9,
-        "ema20": 744.31,
-        "ema50": 722.39,
-        "ema200": 681.16,
-        "rsi": 69.6,
+        "close": 757.18,
+        "ema20": 744.33,
+        "ema50": 722.4,
+        "ema200": 681.17,
+        "rsi": 69.8,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.51,
-        "atr": 6.45,
-        "week52_pct": 98.5
+        "vol_ratio": 0.54,
+        "atr": 6.48,
+        "week52_pct": 98.6
       }
     },
     "levels": {
@@ -37,23 +37,23 @@
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 741.06,
-    "change_1d": -0.42,
-    "change_20d": 6.51,
+    "price": 741.49,
+    "change_1d": -0.37,
+    "change_20d": 6.57,
     "signals": {
       "daily": {
-        "close": 741.06,
-        "ema20": 718.93,
-        "ema50": 682.08,
-        "ema200": 623.76,
-        "rsi": 74.0,
+        "close": 741.49,
+        "ema20": 718.98,
+        "ema50": 682.1,
+        "ema200": 623.77,
+        "rsi": 74.4,
         "rsi_label": "overbought",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.61,
+        "vol_ratio": 0.64,
         "atr": 10.02,
-        "week52_pct": 97.7
+        "week52_pct": 97.9
       }
     },
     "levels": {
@@ -63,45 +63,45 @@
       ],
       "resistance": [
         722.04,
-        741.83
+        742.2
       ]
     }
   },
   "vix": {
-    "value": 15.41,
-    "change": -4.05,
+    "value": 15.42,
+    "change": -3.99,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 193.41,
-      "change_1d": -1.44,
-      "rsi": 72.0,
+      "price": 193.76,
+      "change_1d": -1.26,
+      "rsi": 72.7,
       "rsi_label": "overbought",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 52.12,
-      "change_1d": 2.46,
-      "rsi": 55.6,
+      "price": 52.08,
+      "change_1d": 2.38,
+      "rsi": 55.2,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 151.61,
-      "change_1d": 2.75,
-      "rsi": 60.0,
+      "price": 151.65,
+      "change_1d": 2.78,
+      "rsi": 60.1,
       "rsi_label": "bullish momentum",
       "ema_stack": "mixed"
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 117.28,
-      "change_1d": 0.47,
-      "rsi": 45.7,
+      "price": 117.08,
+      "change_1d": 0.3,
+      "rsi": 44.9,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
@@ -115,33 +115,33 @@
     },
     "XLI": {
       "name": "Industrials",
-      "price": 175.43,
-      "change_1d": 0.79,
-      "rsi": 55.9,
+      "price": 175.73,
+      "change_1d": 0.97,
+      "rsi": 56.6,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": 113.03,
-      "change_1d": 0.85,
-      "rsi": 37.4,
+      "price": 112.97,
+      "change_1d": 0.79,
+      "rsi": 37.1,
       "rsi_label": "weak",
       "ema_stack": "bearish"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 291.32,
-      "change_1d": 1.27,
-      "rsi": 60.4,
+      "price": 291.45,
+      "change_1d": 1.31,
+      "rsi": 60.5,
       "rsi_label": "bullish momentum",
       "ema_stack": "bullish"
     },
     "TLT": {
       "name": "20yr Treasuries",
-      "price": 85.54,
-      "change_1d": 0.27,
-      "rsi": 55.5,
+      "price": 85.53,
+      "change_1d": 0.26,
+      "rsi": 55.4,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
@@ -149,7 +149,7 @@
       "name": "High Yield",
       "price": 79.79,
       "change_1d": 0.14,
-      "rsi": 53.6,
+      "rsi": 53.8,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     }
@@ -176,9 +176,9 @@
       "sentiment": "neutral"
     },
     {
-      "title": "I\u2019m 73 and living 100% off dividends from my stocks. How can I create even more income?",
-      "url": "https://www.marketwatch.com/story/im-73-and-living-100-off-dividends-from-my-stocks-how-can-i-create-even-more-income-74b372f1?mod=mw_rss_topstories",
-      "sentiment": "neutral"
+      "title": "Micron flirts with record market-cap wipeout as Broadcom casts a shadow over chip stocks",
+      "url": "https://www.marketwatch.com/story/micron-flirts-with-record-market-cap-wipeout-as-broadcom-casts-a-shadow-over-chip-stocks-b08f64ed?mod=mw_rss_topstories",
+      "sentiment": "positive"
     }
   ]
 }
