@@ -1,27 +1,27 @@
 {
-  "market_status": "premarket",
-  "market_label": "Pre-Market",
+  "market_status": "open",
+  "market_label": "Market Open",
   "regime": "BULL",
   "regime_desc": "Both SPY and QQQ above all EMAs. Trend intact. Favour longs.",
   "spy": {
     "symbol": "SPY",
-    "price": 757.09,
-    "change_1d": 0.38,
-    "change_20d": 3.17,
+    "price": 750.44,
+    "change_1d": -0.88,
+    "change_20d": 2.58,
     "signals": {
       "daily": {
-        "close": 757.09,
-        "ema20": 744.32,
-        "ema50": 722.4,
-        "ema200": 680.93,
-        "rsi": 69.7,
+        "close": 750.44,
+        "ema20": 744.91,
+        "ema50": 723.5,
+        "ema200": 681.63,
+        "rsi": 61.2,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
-        "volume": "normal",
-        "vol_ratio": 1.06,
-        "atr": 6.54,
-        "week52_pct": 98.6
+        "volume": "low",
+        "vol_ratio": 0.09,
+        "atr": 6.55,
+        "week52_pct": 94.7
       }
     },
     "levels": {
@@ -30,30 +30,30 @@
         644.38
       ],
       "resistance": [
-        749.03,
+        749.81,
         758.33
       ]
     }
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 740.61,
-    "change_1d": -0.48,
-    "change_20d": 6.44,
+    "price": 727.68,
+    "change_1d": -1.75,
+    "change_20d": 4.71,
     "signals": {
       "daily": {
-        "close": 740.61,
-        "ema20": 718.89,
-        "ema50": 682.06,
-        "ema200": 623.44,
-        "rsi": 73.5,
-        "rsi_label": "overbought",
+        "close": 727.68,
+        "ema20": 719.73,
+        "ema50": 683.85,
+        "ema200": 624.48,
+        "rsi": 61.8,
+        "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
-        "volume": "normal",
-        "vol_ratio": 1.04,
-        "atr": 10.03,
-        "week52_pct": 97.5
+        "volume": "low",
+        "vol_ratio": 0.18,
+        "atr": 10.24,
+        "week52_pct": 91.7
       }
     },
     "levels": {
@@ -62,94 +62,94 @@
         571.53
       ],
       "resistance": [
-        722.04,
+        723.48,
         743.61
       ]
     }
   },
   "vix": {
-    "value": 15.94,
-    "change": 3.51,
+    "value": 15.95,
+    "change": 3.57,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 193.17,
-      "change_1d": -1.56,
-      "rsi": 71.5,
-      "rsi_label": "overbought",
+      "price": 187.07,
+      "change_1d": -3.16,
+      "rsi": 60.9,
+      "rsi_label": "bullish momentum",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 52.19,
-      "change_1d": 2.59,
-      "rsi": 56.2,
+      "price": 52.26,
+      "change_1d": 0.13,
+      "rsi": 58.5,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 152.08,
-      "change_1d": 3.07,
-      "rsi": 60.9,
+      "price": 153.35,
+      "change_1d": 0.84,
+      "rsi": 64.8,
       "rsi_label": "bullish momentum",
       "ema_stack": "mixed"
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 117.26,
-      "change_1d": 0.45,
-      "rsi": 45.6,
+      "price": 117.59,
+      "change_1d": 0.28,
+      "rsi": 48.0,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLE": {
       "name": "Energy",
-      "price": 58.75,
-      "change_1d": 0.07,
-      "rsi": 53.8,
+      "price": 58.24,
+      "change_1d": -0.87,
+      "rsi": 50.8,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLI": {
       "name": "Industrials",
-      "price": 176.16,
-      "change_1d": 1.21,
-      "rsi": 57.5,
+      "price": 174.77,
+      "change_1d": -0.79,
+      "rsi": 55.3,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": NaN,
-      "change_1d": NaN,
-      "rsi": 31.6,
+      "price": 113.22,
+      "change_1d": 0.1,
+      "rsi": 39.1,
       "rsi_label": "weak",
       "ema_stack": "mixed"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 292.01,
-      "change_1d": 1.51,
-      "rsi": 61.1,
-      "rsi_label": "bullish momentum",
+      "price": 287.13,
+      "change_1d": -1.67,
+      "rsi": 55.1,
+      "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "TLT": {
       "name": "20yr Treasuries",
-      "price": 85.5,
-      "change_1d": 0.22,
-      "rsi": 55.1,
+      "price": 85.02,
+      "change_1d": -0.56,
+      "rsi": 49.4,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "HYG": {
       "name": "High Yield",
-      "price": 79.83,
-      "change_1d": 0.19,
-      "rsi": 54.6,
+      "price": 79.63,
+      "change_1d": -0.25,
+      "rsi": 51.2,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     }
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Don\u2019t rule out a \u2018June swoon\u2019 \u2014 the S&P 500 is pushing its limits",
-      "url": "https://www.marketwatch.com/story/dont-rule-out-a-june-swoon-the-s-p-500-is-pushing-its-limits-3c067a6b?mod=mw_rss_topstories",
+      "title": "Bulls declare victory in AI debate, but two classic signs of a market top are looming",
+      "url": "https://www.marketwatch.com/story/bulls-declare-victory-on-ai-but-two-classic-signs-of-a-market-top-are-looming-5e4d0222?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
