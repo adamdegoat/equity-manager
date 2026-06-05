@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 20.26,
-    "change": 31.56,
+    "value": 21.51,
+    "change": 39.68,
     "label": "Elevated \u2014 caution"
   },
   "sectors": {
@@ -83,9 +83,9 @@
     },
     "XLF": {
       "name": "Financials",
-      "price": 52.29,
-      "change_1d": 0.19,
-      "rsi": 58.8,
+      "price": 52.3,
+      "change_1d": 0.21,
+      "rsi": 58.9,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
