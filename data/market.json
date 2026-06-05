@@ -5,23 +5,23 @@
   "regime_desc": "Mixed signals across SPY and QQQ. Be selective.",
   "spy": {
     "symbol": "SPY",
-    "price": 744.33,
-    "change_1d": -1.69,
-    "change_20d": 1.74,
+    "price": 744.48,
+    "change_1d": -1.67,
+    "change_20d": 1.76,
     "signals": {
       "daily": {
-        "close": 744.33,
-        "ema20": 744.32,
-        "ema50": 723.26,
+        "close": 744.48,
+        "ema20": 744.34,
+        "ema50": 723.27,
         "ema200": 681.57,
-        "rsi": 55.0,
+        "rsi": 55.2,
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.81,
+        "vol_ratio": 0.85,
         "atr": 7.12,
-        "week52_pct": 91.2
+        "week52_pct": 91.3
       }
     },
     "levels": {
@@ -37,23 +37,23 @@
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 715.53,
-    "change_1d": -3.39,
-    "change_20d": 2.96,
+    "price": 716.15,
+    "change_1d": -3.3,
+    "change_20d": 3.05,
     "signals": {
       "daily": {
-        "close": 715.53,
-        "ema20": 718.57,
-        "ema50": 683.38,
-        "ema200": 624.35,
-        "rsi": 53.8,
+        "close": 716.15,
+        "ema20": 718.63,
+        "ema50": 683.4,
+        "ema200": 624.36,
+        "rsi": 54.1,
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "normal",
-        "vol_ratio": 1.22,
+        "vol_ratio": 1.25,
         "atr": 11.23,
-        "week52_pct": 86.3
+        "week52_pct": 86.6
       }
     },
     "levels": {
@@ -68,80 +68,80 @@
     }
   },
   "vix": {
-    "value": 18.51,
-    "change": 20.19,
+    "value": 18.11,
+    "change": 17.6,
     "label": "Normal"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 183.24,
-      "change_1d": -5.14,
-      "rsi": 55.6,
+      "price": 183.47,
+      "change_1d": -5.02,
+      "rsi": 55.9,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLF": {
       "name": "Financials",
-      "price": 52.31,
-      "change_1d": 0.23,
-      "rsi": 59.0,
+      "price": 52.33,
+      "change_1d": 0.27,
+      "rsi": 59.1,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 154.13,
-      "change_1d": 1.35,
-      "rsi": 66.1,
+      "price": 154.07,
+      "change_1d": 1.31,
+      "rsi": 66.0,
       "rsi_label": "bullish momentum",
       "ema_stack": "mixed"
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 116.09,
-      "change_1d": -1.0,
-      "rsi": 43.0,
+      "price": 116.04,
+      "change_1d": -1.04,
+      "rsi": 42.9,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLE": {
       "name": "Energy",
-      "price": 58.04,
-      "change_1d": -1.21,
-      "rsi": 49.8,
+      "price": 57.99,
+      "change_1d": -1.29,
+      "rsi": 49.5,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLI": {
       "name": "Industrials",
-      "price": 174.92,
-      "change_1d": -0.7,
+      "price": 174.91,
+      "change_1d": -0.71,
       "rsi": 55.7,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": 111.89,
-      "change_1d": -1.08,
-      "rsi": 34.4,
+      "price": 111.86,
+      "change_1d": -1.11,
+      "rsi": 34.3,
       "rsi_label": "weak",
       "ema_stack": "mixed"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 283.85,
-      "change_1d": -2.79,
-      "rsi": 51.1,
+      "price": 283.93,
+      "change_1d": -2.77,
+      "rsi": 51.2,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "TLT": {
       "name": "20yr Treasuries",
-      "price": 85.22,
-      "change_1d": -0.33,
-      "rsi": 51.5,
+      "price": 85.18,
+      "change_1d": -0.37,
+      "rsi": 50.9,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "Elon Musk in a post on X says some of his Trump posts \u2018went too far\u2019 and that he regrets them",
-      "url": "https://www.marketwatch.com/story/elon-musk-in-a-post-on-x-says-some-of-his-trump-posts-went-too-far-and-that-he-regrets-them-90e73a6a?mod=mw_rss_realtimeheadlines",
+      "title": "This credit-card pointsmaxxer booked a $16,000 first-class Emirates flight for $400 \u2014 and you can, too",
+      "url": "https://www.marketwatch.com/story/this-credit-card-pointsmaxxer-booked-a-16-000-first-class-emirates-flight-for-400-and-you-can-too-46f99294?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
