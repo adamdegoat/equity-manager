@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 15.72,
-    "change": 2.08,
+    "value": 15.67,
+    "change": 1.75,
     "label": "Normal"
   },
   "sectors": {
@@ -176,9 +176,9 @@
       "sentiment": "neutral"
     },
     {
-      "title": "In \u2018wild\u2019 twist, SpaceX won\u2019t be allowed early entry to the S&P 500 after all",
-      "url": "https://www.marketwatch.com/story/in-wild-twist-spacex-wont-be-allowed-early-entry-to-the-s-p-500-after-all-2c1b8205?mod=mw_rss_topstories",
-      "sentiment": "neutral"
+      "title": "The stock market is at its frothiest since the global financial crisis, proclaims Citi. Why dip buyers shouldn\u2019t bail yet.",
+      "url": "https://www.marketwatch.com/story/the-stock-market-is-at-its-frothiest-since-the-global-financial-crisis-proclaims-citi-why-dip-buyers-shouldnt-bail-yet-bd66f5a3?mod=mw_rss_topstories",
+      "sentiment": "positive"
     }
   ]
 }
