@@ -1,29 +1,29 @@
 [
   {
     "symbol": "NVDA",
-    "price": 209.44,
-    "change_1d": -4.22,
+    "price": 208.79,
+    "change_1d": -4.51,
     "verdict": "HOLD",
     "score": 6,
-    "summary": "NVDA is showing mixed trend signals \u2014 no clear directional bias. RSI at 46.9 (neutral). Relative strength vs SPY: underperforming (-2.5%). Sector: Technology.",
+    "summary": "NVDA is showing mixed trend signals \u2014 no clear directional bias. RSI at 46.4 (neutral). Relative strength vs SPY: underperforming (-2.8%). Sector: Technology.",
     "moomoo": {
       "note": "Hold existing NVDA position. No aggressive adds yet.",
       "avoid": "Do not add until a clearer signal forms."
     },
     "signals": {
       "daily": {
-        "close": 209.44,
-        "ema20": 215.18,
-        "ema50": 206.81,
+        "close": 208.79,
+        "ema20": 215.11,
+        "ema50": 206.78,
         "ema200": 187.72,
-        "rsi": 46.9,
+        "rsi": 46.4,
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "low",
-        "vol_ratio": 0.36,
-        "atr": 8.16,
-        "week52_pct": 72.8
+        "vol_ratio": 0.41,
+        "atr": 8.22,
+        "week52_pct": 72.1
       }
     },
     "levels": {
@@ -36,38 +36,38 @@
         229.81
       ]
     },
-    "rs_vs_spy": -2.49,
-    "rs_3m": 7.07,
-    "rs_6m": 8.86,
+    "rs_vs_spy": -2.77,
+    "rs_3m": 6.79,
+    "rs_6m": 8.58,
     "earnings_date": "2026-08-27",
     "earnings_risk": false,
     "sector": "Technology"
   },
   {
     "symbol": "TSLA",
-    "price": 402.12,
-    "change_1d": -3.9,
+    "price": 403.03,
+    "change_1d": -3.69,
     "verdict": "AVOID",
     "score": -2,
-    "summary": "TSLA is showing mixed trend signals \u2014 no clear directional bias. RSI at 44.1 (neutral). Relative strength vs SPY: underperforming (-4.0%). Sector: Consumer Cyclical.",
+    "summary": "TSLA is showing mixed trend signals \u2014 no clear directional bias. RSI at 44.4 (neutral). Relative strength vs SPY: underperforming (-3.8%). Sector: Consumer Cyclical.",
     "moomoo": {
       "note": "No exposure to TSLA until conditions improve.",
       "avoid": "Do not buy. Wait for trend to recover."
     },
     "signals": {
       "daily": {
-        "close": 402.12,
-        "ema20": 418.5,
-        "ema50": 408.49,
-        "ema200": 395.76,
-        "rsi": 44.1,
+        "close": 403.03,
+        "ema20": 418.59,
+        "ema50": 408.53,
+        "ema200": 395.77,
+        "rsi": 44.4,
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "low",
-        "vol_ratio": 0.42,
+        "vol_ratio": 0.46,
         "atr": 15.37,
-        "week52_pct": 57.2
+        "week52_pct": 57.7
       }
     },
     "levels": {
@@ -80,38 +80,38 @@
         447.87
       ]
     },
-    "rs_vs_spy": -3.99,
-    "rs_3m": -7.82,
-    "rs_6m": -16.82,
+    "rs_vs_spy": -3.75,
+    "rs_3m": -7.59,
+    "rs_6m": -16.59,
     "earnings_date": "2026-07-23",
     "earnings_risk": false,
     "sector": "Consumer Cyclical"
   },
   {
     "symbol": "AAPL",
-    "price": 313.26,
-    "change_1d": 0.65,
+    "price": 313.88,
+    "change_1d": 0.85,
     "verdict": "HOLD",
     "score": 7,
-    "summary": "AAPL is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 68.2 (bullish momentum). Relative strength vs SPY: outperforming (+6.5%). Sector: Technology.",
+    "summary": "AAPL is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 68.6 (bullish momentum). Relative strength vs SPY: outperforming (+6.7%). Sector: Technology.",
     "moomoo": {
       "note": "Hold existing AAPL position. No aggressive adds yet.",
       "avoid": "Do not add until a clearer signal forms."
     },
     "signals": {
       "daily": {
-        "close": 313.26,
-        "ema20": 303.19,
-        "ema50": 288.2,
-        "ema200": 262.59,
-        "rsi": 68.2,
+        "close": 313.88,
+        "ema20": 303.25,
+        "ema50": 288.23,
+        "ema200": 262.6,
+        "rsi": 68.6,
         "rsi_label": "bullish momentum",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.32,
+        "vol_ratio": 0.34,
         "atr": 5.78,
-        "week52_pct": 98.4
+        "week52_pct": 98.9
       }
     },
     "levels": {
@@ -124,38 +124,38 @@
         315.01
       ]
     },
-    "rs_vs_spy": 6.5,
-    "rs_3m": 9.06,
-    "rs_6m": 1.19,
+    "rs_vs_spy": 6.72,
+    "rs_3m": 9.28,
+    "rs_6m": 1.41,
     "earnings_date": "2026-07-31",
     "earnings_risk": false,
     "sector": "Technology"
   },
   {
     "symbol": "META",
-    "price": 613.44,
-    "change_1d": -2.25,
+    "price": 613.84,
+    "change_1d": -2.19,
     "verdict": "AVOID",
     "score": -1,
-    "summary": "META is below its key moving averages \u2014 downtrend in control. RSI at 47.7 (neutral). Relative strength vs SPY: underperforming (-2.5%). Sector: Communication Services.",
+    "summary": "META is below its key moving averages \u2014 downtrend in control. RSI at 47.8 (neutral). Relative strength vs SPY: underperforming (-2.4%). Sector: Communication Services.",
     "moomoo": {
       "note": "No exposure to META until conditions improve.",
       "avoid": "Do not buy. Wait for trend to recover."
     },
     "signals": {
       "daily": {
-        "close": 613.44,
-        "ema20": 618.11,
-        "ema50": 623.28,
-        "ema200": 650.71,
-        "rsi": 47.7,
+        "close": 613.84,
+        "ema20": 618.15,
+        "ema50": 623.29,
+        "ema200": 650.72,
+        "rsi": 47.8,
         "rsi_label": "neutral",
         "macd": "bullish",
         "ema_stack": "bearish",
         "volume": "low",
-        "vol_ratio": 0.3,
-        "atr": 17.44,
-        "week52_pct": 33.4
+        "vol_ratio": 0.32,
+        "atr": 17.45,
+        "week52_pct": 33.6
       }
     },
     "levels": {
@@ -168,38 +168,38 @@
         680.76
       ]
     },
-    "rs_vs_spy": -2.49,
-    "rs_3m": -14.03,
-    "rs_6m": -10.48,
+    "rs_vs_spy": -2.41,
+    "rs_3m": -13.95,
+    "rs_6m": -10.4,
     "earnings_date": "2026-07-30",
     "earnings_risk": false,
     "sector": "Communication Services"
   },
   {
     "symbol": "AMZN",
-    "price": 252.73,
-    "change_1d": -0.42,
+    "price": 253.54,
+    "change_1d": -0.1,
     "verdict": "REDUCE",
     "score": 3,
-    "summary": "AMZN is showing mixed trend signals \u2014 no clear directional bias. RSI at 42.6 (neutral). Relative strength vs SPY: underperforming (-9.1%). Sector: Consumer Cyclical.",
+    "summary": "AMZN is showing mixed trend signals \u2014 no clear directional bias. RSI at 43.3 (neutral). Relative strength vs SPY: underperforming (-8.8%). Sector: Consumer Cyclical.",
     "moomoo": {
       "note": "Trim AMZN into current strength.",
       "avoid": "Do not add. Pullback risk is elevated."
     },
     "signals": {
       "daily": {
-        "close": 252.73,
-        "ema20": 261.19,
-        "ema50": 252.92,
-        "ema200": 234.05,
-        "rsi": 42.6,
+        "close": 253.54,
+        "ema20": 261.27,
+        "ema50": 252.95,
+        "ema200": 234.06,
+        "rsi": 43.3,
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "low",
-        "vol_ratio": 0.33,
+        "vol_ratio": 0.36,
         "atr": 6.78,
-        "week52_pct": 70.8
+        "week52_pct": 71.8
       }
     },
     "levels": {
@@ -212,9 +212,9 @@
         276.13
       ]
     },
-    "rs_vs_spy": -9.1,
-    "rs_3m": 6.8,
-    "rs_6m": 0.46,
+    "rs_vs_spy": -8.77,
+    "rs_3m": 7.14,
+    "rs_6m": 0.79,
     "earnings_date": "2026-07-31",
     "earnings_risk": false,
     "sector": "Consumer Cyclical"
@@ -241,7 +241,7 @@
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "low",
-        "vol_ratio": 0.23,
+        "vol_ratio": 0.27,
         "atr": 12.43,
         "week52_pct": 36.3
       }
@@ -256,16 +256,16 @@
         440.89
       ]
     },
-    "rs_vs_spy": -1.28,
-    "rs_3m": -6.68,
-    "rs_6m": -19.46,
+    "rs_vs_spy": -1.26,
+    "rs_3m": -6.66,
+    "rs_6m": -19.44,
     "earnings_date": "2026-07-30",
     "earnings_risk": false,
     "sector": "Technology"
   },
   {
     "symbol": "AMD",
-    "price": 486.9,
+    "price": 486.89,
     "change_1d": -6.94,
     "verdict": "ACCUMULATE",
     "score": 12,
@@ -276,7 +276,7 @@
     },
     "signals": {
       "daily": {
-        "close": 486.9,
+        "close": 486.89,
         "ema20": 469.1,
         "ema50": 388.83,
         "ema200": 264.76,
@@ -285,7 +285,7 @@
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.41,
+        "vol_ratio": 0.44,
         "atr": 27.96,
         "week52_pct": 87.0
       }
@@ -300,38 +300,38 @@
         522.73
       ]
     },
-    "rs_vs_spy": 17.29,
-    "rs_3m": 88.63,
-    "rs_6m": 82.28,
+    "rs_vs_spy": 17.31,
+    "rs_3m": 88.65,
+    "rs_6m": 82.3,
     "earnings_date": "2026-08-05",
     "earnings_risk": false,
     "sector": "Technology"
   },
   {
     "symbol": "GOOGL",
-    "price": 368.91,
-    "change_1d": -0.88,
+    "price": 370.01,
+    "change_1d": -0.59,
     "verdict": "HOLD",
     "score": 6,
-    "summary": "GOOGL is showing mixed trend signals \u2014 no clear directional bias. RSI at 46.6 (neutral). Relative strength vs SPY: underperforming (-9.6%). Sector: Communication Services.",
+    "summary": "GOOGL is showing mixed trend signals \u2014 no clear directional bias. RSI at 47.3 (neutral). Relative strength vs SPY: underperforming (-9.2%). Sector: Communication Services.",
     "moomoo": {
       "note": "Hold existing GOOGL position. No aggressive adds yet.",
       "avoid": "Do not add until a clearer signal forms."
     },
     "signals": {
       "daily": {
-        "close": 368.91,
-        "ema20": 376.65,
-        "ema50": 361.2,
-        "ema200": 305.53,
-        "rsi": 46.6,
+        "close": 370.01,
+        "ema20": 376.75,
+        "ema50": 361.24,
+        "ema200": 305.54,
+        "rsi": 47.3,
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "low",
-        "vol_ratio": 0.35,
+        "vol_ratio": 0.37,
         "atr": 10.01,
-        "week52_pct": 85.8
+        "week52_pct": 86.3
       }
     },
     "levels": {
@@ -344,38 +344,38 @@
         402.05
       ]
     },
-    "rs_vs_spy": -9.55,
-    "rs_3m": 11.58,
-    "rs_6m": 6.66,
+    "rs_vs_spy": -9.23,
+    "rs_3m": 11.89,
+    "rs_6m": 6.97,
     "earnings_date": "2026-07-24",
     "earnings_risk": false,
     "sector": "Communication Services"
   },
   {
     "symbol": "SPY",
-    "price": 748.51,
-    "change_1d": -1.13,
+    "price": 748.38,
+    "change_1d": -1.15,
     "verdict": "REDUCE",
     "score": 3,
-    "summary": "SPY is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 59.1 (neutral). Relative strength vs SPY: underperforming (+0.0%).",
+    "summary": "SPY is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 59.0 (neutral). Relative strength vs SPY: underperforming (+0.0%).",
     "moomoo": {
       "note": "Trim SPY into current strength.",
       "avoid": "Do not add. Pullback risk is elevated."
     },
     "signals": {
       "daily": {
-        "close": 748.51,
-        "ema20": 744.72,
-        "ema50": 723.43,
+        "close": 748.38,
+        "ema20": 744.71,
+        "ema50": 723.42,
         "ema200": 681.61,
-        "rsi": 59.1,
+        "rsi": 59.0,
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "low",
-        "vol_ratio": 0.35,
-        "atr": 6.71,
-        "week52_pct": 93.6
+        "vol_ratio": 0.39,
+        "atr": 6.75,
+        "week52_pct": 93.5
       }
     },
     "levels": {
@@ -397,29 +397,29 @@
   },
   {
     "symbol": "QQQ",
-    "price": 722.89,
-    "change_1d": -2.39,
+    "price": 722.72,
+    "change_1d": -2.42,
     "verdict": "HOLD",
     "score": 10,
-    "summary": "QQQ is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 58.4 (neutral). Relative strength vs SPY: outperforming (+1.7%).",
+    "summary": "QQQ is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 58.3 (neutral). Relative strength vs SPY: outperforming (+1.7%).",
     "moomoo": {
       "note": "Hold existing QQQ position. No aggressive adds yet.",
       "avoid": "Do not add until a clearer signal forms."
     },
     "signals": {
       "daily": {
-        "close": 722.89,
-        "ema20": 719.27,
-        "ema50": 683.67,
+        "close": 722.72,
+        "ema20": 719.26,
+        "ema50": 683.66,
         "ema200": 624.43,
-        "rsi": 58.4,
+        "rsi": 58.3,
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 0.61,
-        "atr": 10.6,
-        "week52_pct": 89.6
+        "vol_ratio": 0.67,
+        "atr": 10.66,
+        "week52_pct": 89.5
       }
     },
     "levels": {
@@ -432,9 +432,9 @@
         743.61
       ]
     },
-    "rs_vs_spy": 1.74,
+    "rs_vs_spy": 1.73,
     "rs_3m": 8.02,
-    "rs_6m": 5.81,
+    "rs_6m": 5.8,
     "earnings_date": null,
     "earnings_risk": false,
     "sector": ""
