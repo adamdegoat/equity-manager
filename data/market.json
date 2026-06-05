@@ -1,27 +1,27 @@
 {
-  "market_status": "open",
-  "market_label": "Market Open",
+  "market_status": "afterhours",
+  "market_label": "After Hours",
   "regime": "NEUTRAL",
   "regime_desc": "Mixed signals across SPY and QQQ. Be selective.",
   "spy": {
     "symbol": "SPY",
-    "price": 738.1,
-    "change_1d": -2.51,
-    "change_20d": 0.89,
+    "price": 737.55,
+    "change_1d": -2.58,
+    "change_20d": 0.82,
     "signals": {
       "daily": {
-        "close": 738.1,
-        "ema20": 743.73,
-        "ema50": 723.02,
+        "close": 737.55,
+        "ema20": 743.68,
+        "ema50": 723.0,
         "ema200": 681.99,
-        "rsi": 49.9,
+        "rsi": 49.5,
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "high",
-        "vol_ratio": 1.53,
+        "vol_ratio": 1.73,
         "atr": 7.61,
-        "week52_pct": 87.4
+        "week52_pct": 87.1
       }
     },
     "levels": {
@@ -37,23 +37,23 @@
   },
   "qqq": {
     "symbol": "QQQ",
-    "price": 705.32,
-    "change_1d": -4.76,
-    "change_20d": 1.49,
+    "price": 705.06,
+    "change_1d": -4.8,
+    "change_20d": 1.46,
     "signals": {
       "daily": {
-        "close": 705.32,
-        "ema20": 717.6,
-        "ema50": 682.98,
-        "ema200": 624.67,
-        "rsi": 48.5,
+        "close": 705.06,
+        "ema20": 717.57,
+        "ema50": 682.97,
+        "ema200": 624.66,
+        "rsi": 48.3,
         "rsi_label": "neutral",
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "high",
-        "vol_ratio": 2.15,
+        "vol_ratio": 2.19,
         "atr": 11.9,
-        "week52_pct": 81.6
+        "week52_pct": 81.5
       }
     },
     "levels": {
@@ -68,88 +68,88 @@
     }
   },
   "vix": {
-    "value": 20.44,
-    "change": 32.73,
+    "value": 20.26,
+    "change": 31.56,
     "label": "Elevated \u2014 caution"
   },
   "sectors": {
     "XLK": {
       "name": "Technology",
-      "price": 180.6,
-      "change_1d": -6.51,
-      "rsi": 52.4,
+      "price": 180.3,
+      "change_1d": -6.66,
+      "rsi": 52.0,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLF": {
       "name": "Financials",
-      "price": 52.33,
-      "change_1d": 0.27,
-      "rsi": 59.1,
+      "price": 52.29,
+      "change_1d": 0.19,
+      "rsi": 58.8,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLV": {
       "name": "Healthcare",
-      "price": 153.21,
-      "change_1d": 0.74,
-      "rsi": 64.5,
+      "price": 153.01,
+      "change_1d": 0.61,
+      "rsi": 64.1,
       "rsi_label": "bullish momentum",
       "ema_stack": "mixed"
     },
     "XLY": {
       "name": "Consumer Disc.",
-      "price": 114.94,
-      "change_1d": -1.98,
-      "rsi": 39.9,
+      "price": 114.86,
+      "change_1d": -2.05,
+      "rsi": 39.7,
       "rsi_label": "weak",
       "ema_stack": "mixed"
     },
     "XLE": {
       "name": "Energy",
-      "price": 57.72,
-      "change_1d": -1.75,
-      "rsi": 48.3,
+      "price": 57.67,
+      "change_1d": -1.84,
+      "rsi": 48.0,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "XLI": {
       "name": "Industrials",
-      "price": 174.37,
-      "change_1d": -1.02,
-      "rsi": 54.1,
+      "price": 174.18,
+      "change_1d": -1.12,
+      "rsi": 53.6,
       "rsi_label": "neutral",
       "ema_stack": "bullish"
     },
     "XLC": {
       "name": "Comm. Services",
-      "price": 111.71,
-      "change_1d": -1.24,
-      "rsi": 33.9,
+      "price": 111.67,
+      "change_1d": -1.27,
+      "rsi": 33.7,
       "rsi_label": "weak",
       "ema_stack": "mixed"
     },
     "IWM": {
       "name": "Small Caps",
-      "price": 281.84,
-      "change_1d": -3.48,
-      "rsi": 48.9,
+      "price": 281.65,
+      "change_1d": -3.55,
+      "rsi": 48.7,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "TLT": {
       "name": "20yr Treasuries",
-      "price": 85.07,
-      "change_1d": -0.5,
-      "rsi": 49.8,
+      "price": 85.06,
+      "change_1d": -0.51,
+      "rsi": 49.7,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     },
     "HYG": {
       "name": "High Yield",
-      "price": 79.5,
-      "change_1d": -0.41,
-      "rsi": 48.3,
+      "price": 79.43,
+      "change_1d": -0.5,
+      "rsi": 46.9,
       "rsi_label": "neutral",
       "ema_stack": "mixed"
     }
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "How this traveler booked a $16,000 first-class Emirates flight for $400 \u2014 and you can, too",
-      "url": "https://www.marketwatch.com/story/this-credit-card-pointsmaxxer-booked-a-16-000-first-class-emirates-flight-for-400-and-you-can-too-46f99294?mod=mw_rss_topstories",
+      "title": "For the first time ever, an S&P 500 ETF has over $1 trillion in assets. Here\u2019s why that should worry you.",
+      "url": "https://www.marketwatch.com/story/for-the-first-time-ever-an-s-p-500-etf-has-over-1-trillion-in-assets-heres-why-that-should-worry-you-d3ee21ad?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
