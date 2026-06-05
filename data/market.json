@@ -68,8 +68,8 @@
     }
   },
   "vix": {
-    "value": 15.4,
-    "change": -4.11,
+    "value": 15.84,
+    "change": 2.86,
     "label": "Normal"
   },
   "sectors": {
@@ -176,8 +176,8 @@
       "sentiment": "neutral"
     },
     {
-      "title": "In \u2018wild\u2019 twist, SpaceX won\u2019t be allowed early entry to the S&P 500 after all",
-      "url": "https://www.marketwatch.com/story/in-wild-twist-spacex-wont-be-allowed-early-entry-to-the-s-p-500-after-all-2c1b8205?mod=mw_rss_topstories",
+      "title": "One quadrillion is the number used to describe the wealth effect of South Korea\u2019s stock-market miracle",
+      "url": "https://www.marketwatch.com/story/one-quadrillion-is-the-number-used-to-describe-the-wealth-effect-of-south-koreas-stock-market-miracle-8ecad9dd?mod=mw_rss_topstories",
       "sentiment": "neutral"
     }
   ]
