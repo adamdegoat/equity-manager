@@ -109,7 +109,7 @@
         "macd": "bearish",
         "ema_stack": "bullish",
         "volume": "normal",
-        "vol_ratio": 1.35,
+        "vol_ratio": 1.36,
         "atr": 6.07,
         "week52_pct": 93.5
       }
@@ -153,7 +153,7 @@
         "macd": "bearish",
         "ema_stack": "bearish",
         "volume": "high",
-        "vol_ratio": 1.75,
+        "vol_ratio": 1.76,
         "atr": 19.58,
         "week52_pct": 25.6
       }
@@ -241,7 +241,7 @@
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "normal",
-        "vol_ratio": 0.87,
+        "vol_ratio": 0.93,
         "atr": 12.88,
         "week52_pct": 33.2
       }
@@ -329,7 +329,7 @@
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "normal",
-        "vol_ratio": 1.12,
+        "vol_ratio": 1.17,
         "atr": 10.03,
         "week52_pct": 85.7
       }
@@ -373,7 +373,7 @@
         "macd": "bearish",
         "ema_stack": "mixed",
         "volume": "high",
-        "vol_ratio": 1.73,
+        "vol_ratio": 1.87,
         "atr": 7.61,
         "week52_pct": 87.1
       }
