@@ -1,145 +1,294 @@
 {
   "results": [
     {
-      "symbol": "FDX",
-      "price": 329.0,
-      "change_1d": -2.8,
+      "symbol": "AMAT",
+      "price": 453.01,
+      "change_1d": -9.71,
       "verdict": "ACCUMULATE",
-      "score": 9,
-      "summary": "FDX is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 60.7 (bullish momentum). Relative strength vs SPY: outperforming (+7.9%).",
+      "score": 13,
+      "summary": "AMAT is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 54.0 (neutral). Relative strength vs SPY: outperforming (+10.5%). Note: market regime is NEUTRAL \u2014 be selective.",
       "moomoo": {
-        "note": "Strong setup. Consider adding FDX on minor dips.",
+        "note": "Strong setup. Consider adding AMAT on minor dips.",
         "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
       },
       "signals": {
         "daily": {
-          "close": 329.0,
-          "ema20": 317.6,
-          "ema50": 306.81,
-          "ema200": 260.61,
-          "rsi": 60.7,
-          "rsi_label": "bullish momentum",
+          "close": 453.01,
+          "ema20": 448.8,
+          "ema50": 416.24,
+          "ema200": 322.72,
+          "rsi": 54.0,
+          "rsi_label": "neutral",
           "macd": "bullish",
           "ema_stack": "bullish",
           "volume": "high",
-          "vol_ratio": 1.67
+          "vol_ratio": 1.42,
+          "atr": 22.61,
+          "week52_pct": 85.9
         }
       },
       "levels": {
         "support": [
-          282.74,
-          277.49
+          342.35,
+          333.91
         ],
         "resistance": [
-          321.46,
-          333.37
+          449.23,
+          485.23
         ]
       },
-      "rs_vs_spy": 7.88,
-      "earnings_date": "2026-06-24",
-      "earnings_risk": false
+      "rs_vs_spy": 10.51,
+      "rs_3m": 27.21,
+      "rs_6m": 50.74,
+      "earnings_date": "2026-08-14",
+      "earnings_risk": false,
+      "sector": ""
     },
     {
-      "symbol": "QCOM",
-      "price": 240.84,
-      "change_1d": 5.17,
+      "symbol": "KLAC",
+      "price": 1929.2,
+      "change_1d": -9.47,
       "verdict": "ACCUMULATE",
-      "score": 8,
-      "summary": "QCOM is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 62.7 (bullish momentum). Relative strength vs SPY: outperforming (+34.3%).",
+      "score": 13,
+      "summary": "KLAC is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 52.6 (neutral). Relative strength vs SPY: outperforming (+9.8%). Note: market regime is NEUTRAL \u2014 be selective.",
       "moomoo": {
-        "note": "Strong setup. Consider adding QCOM on minor dips.",
+        "note": "Strong setup. Consider adding KLAC on minor dips.",
         "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
       },
       "signals": {
         "daily": {
-          "close": 240.84,
-          "ema20": 215.59,
-          "ema50": 186.01,
-          "ema200": 162.61,
-          "rsi": 62.7,
-          "rsi_label": "bullish momentum",
+          "close": 1929.2,
+          "ema20": 1923.13,
+          "ema50": 1798.35,
+          "ema200": 1442.96,
+          "rsi": 52.6,
+          "rsi_label": "neutral",
           "macd": "bullish",
           "ema_stack": "bullish",
-          "volume": "normal",
-          "vol_ratio": 0.64
+          "volume": "high",
+          "vol_ratio": 1.82,
+          "atr": 96.37,
+          "week52_pct": 84.8
         }
       },
       "levels": {
         "support": [
-          126.95,
-          125.54
+          1448.33,
+          1406.21
         ],
         "resistance": [
-          228.34,
-          248.33
+          1938.56,
+          2055.22
         ]
       },
-      "rs_vs_spy": 34.3,
-      "earnings_date": "2026-07-30",
-      "earnings_risk": false
+      "rs_vs_spy": 9.75,
+      "rs_3m": 30.0,
+      "rs_6m": 45.85,
+      "earnings_date": "2026-07-31",
+      "earnings_risk": false,
+      "sector": ""
     },
     {
-      "symbol": "LLY",
-      "price": 1064.15,
-      "change_1d": -1.67,
+      "symbol": "MU",
+      "price": 864.01,
+      "change_1d": -13.25,
       "verdict": "ACCUMULATE",
-      "score": 8,
-      "summary": "LLY is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 59.4 (neutral). Relative strength vs SPY: outperforming (+4.4%).",
+      "score": 12,
+      "summary": "MU is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 55.2 (neutral). Relative strength vs SPY: outperforming (+33.7%). Note: market regime is NEUTRAL \u2014 be selective.",
       "moomoo": {
-        "note": "Strong setup. Consider adding LLY on minor dips.",
+        "note": "Strong setup. Consider adding MU on minor dips.",
         "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
       },
       "signals": {
         "daily": {
-          "close": 1064.15,
-          "ema20": 1032.66,
-          "ema50": 993.74,
-          "ema200": 939.71,
-          "rsi": 59.4,
+          "close": 864.01,
+          "ema20": 852.95,
+          "ema50": 687.59,
+          "ema200": 419.39,
+          "rsi": 55.2,
           "rsi_label": "neutral",
           "macd": "bullish",
           "ema_stack": "bullish",
           "volume": "normal",
-          "vol_ratio": 0.76
+          "vol_ratio": 1.35,
+          "atr": 65.79,
+          "week52_pct": 77.9
         }
       },
       "levels": {
         "support": [
-          893.55,
-          870.05
+          386.12,
+          342.86
         ],
         "resistance": [
-          1024.21,
-          1093.66
+          833.39,
+          1036.9
         ]
       },
-      "rs_vs_spy": 4.4,
-      "earnings_date": "2026-08-05",
-      "earnings_risk": false
+      "rs_vs_spy": 33.67,
+      "rs_3m": 85.28,
+      "rs_6m": 138.69,
+      "earnings_date": "2026-06-25",
+      "earnings_risk": false,
+      "sector": ""
+    },
+    {
+      "symbol": "NET",
+      "price": 250.11,
+      "change_1d": -6.9,
+      "verdict": "ACCUMULATE",
+      "score": 12,
+      "summary": "NET is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 58.7 (neutral). Relative strength vs SPY: outperforming (+1.7%). Note: market regime is NEUTRAL \u2014 be selective.",
+      "moomoo": {
+        "note": "Strong setup. Consider adding NET on minor dips.",
+        "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
+      },
+      "signals": {
+        "daily": {
+          "close": 250.11,
+          "ema20": 234.0,
+          "ema50": 218.79,
+          "ema200": 204.08,
+          "rsi": 58.7,
+          "rsi_label": "neutral",
+          "macd": "bullish",
+          "ema_stack": "bullish",
+          "volume": "normal",
+          "vol_ratio": 0.94,
+          "atr": 14.82,
+          "week52_pct": 80.0
+        }
+      },
+      "levels": {
+        "support": [
+          191.47,
+          177.72
+        ],
+        "resistance": [
+          231.33,
+          270.28
+        ]
+      },
+      "rs_vs_spy": 1.69,
+      "rs_3m": 24.28,
+      "rs_6m": 25.41,
+      "earnings_date": "2026-07-31",
+      "earnings_risk": false,
+      "sector": ""
+    },
+    {
+      "symbol": "PANW",
+      "price": 272.05,
+      "change_1d": -2.58,
+      "verdict": "ACCUMULATE",
+      "score": 12,
+      "summary": "PANW is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 64.3 (bullish momentum). Relative strength vs SPY: outperforming (+33.2%). Note: market regime is NEUTRAL \u2014 be selective.",
+      "moomoo": {
+        "note": "Strong setup. Consider adding PANW on minor dips.",
+        "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
+      },
+      "signals": {
+        "daily": {
+          "close": 272.05,
+          "ema20": 253.72,
+          "ema50": 219.81,
+          "ema200": 194.59,
+          "rsi": 64.3,
+          "rsi_label": "bullish momentum",
+          "macd": "bullish",
+          "ema_stack": "bullish",
+          "volume": "normal",
+          "vol_ratio": 0.76,
+          "atr": 12.85,
+          "week52_pct": 82.1
+        }
+      },
+      "levels": {
+        "support": [
+          157.48,
+          152.16
+        ],
+        "resistance": [
+          253.99,
+          283.92
+        ]
+      },
+      "rs_vs_spy": 33.25,
+      "rs_3m": 43.58,
+      "rs_6m": 30.51,
+      "earnings_date": "2026-08-19",
+      "earnings_risk": false,
+      "sector": ""
+    },
+    {
+      "symbol": "GS",
+      "price": 1038.68,
+      "change_1d": -4.94,
+      "verdict": "ACCUMULATE",
+      "score": 12,
+      "summary": "GS is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 60.7 (bullish momentum). Relative strength vs SPY: outperforming (+11.6%). Note: market regime is NEUTRAL \u2014 be selective.",
+      "moomoo": {
+        "note": "Strong setup. Consider adding GS on minor dips.",
+        "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
+      },
+      "signals": {
+        "daily": {
+          "close": 1038.68,
+          "ema20": 999.72,
+          "ema50": 950.2,
+          "ema200": 855.11,
+          "rsi": 60.7,
+          "rsi_label": "bullish momentum",
+          "macd": "bullish",
+          "ema_stack": "bullish",
+          "volume": "normal",
+          "vol_ratio": 1.19,
+          "atr": 31.57,
+          "week52_pct": 89.0
+        }
+      },
+      "levels": {
+        "support": [
+          805.69,
+          787.09
+        ],
+        "resistance": [
+          999.5,
+          1056.87
+        ]
+      },
+      "rs_vs_spy": 11.63,
+      "rs_3m": 15.39,
+      "rs_6m": 16.7,
+      "earnings_date": "2026-07-14",
+      "earnings_risk": false,
+      "sector": ""
     },
     {
       "symbol": "GE",
-      "price": 317.72,
-      "change_1d": -2.12,
+      "price": 328.0,
+      "change_1d": 0.11,
       "verdict": "ACCUMULATE",
-      "score": 8,
-      "summary": "GE is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 60.3 (bullish momentum). Relative strength vs SPY: outperforming (+7.4%).",
+      "score": 11,
+      "summary": "GE is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 64.8 (bullish momentum). Relative strength vs SPY: outperforming (+7.6%). Note: market regime is NEUTRAL \u2014 be selective.",
       "moomoo": {
         "note": "Strong setup. Consider adding GE on minor dips.",
         "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
       },
       "signals": {
         "daily": {
-          "close": 317.72,
-          "ema20": 305.96,
-          "ema50": 302.16,
-          "ema200": 296.08,
-          "rsi": 60.3,
+          "close": 328.0,
+          "ema20": 310.6,
+          "ema50": 304.59,
+          "ema200": 297.43,
+          "rsi": 64.8,
           "rsi_label": "bullish momentum",
           "macd": "bullish",
           "ema_stack": "bullish",
           "volume": "normal",
-          "vol_ratio": 0.91
+          "vol_ratio": 0.81,
+          "atr": 9.86,
+          "week52_pct": 84.4
         }
       },
       "levels": {
@@ -149,16 +298,63 @@
         ],
         "resistance": [
           318.72,
-          325.93
+          325.94
         ]
       },
-      "rs_vs_spy": 7.38,
+      "rs_vs_spy": 7.62,
+      "rs_3m": -6.02,
+      "rs_6m": 8.09,
       "earnings_date": "2026-07-16",
-      "earnings_risk": false
+      "earnings_risk": false,
+      "sector": ""
+    },
+    {
+      "symbol": "UPS",
+      "price": 108.54,
+      "change_1d": -1.52,
+      "verdict": "ACCUMULATE",
+      "score": 11,
+      "summary": "UPS is trading above its 20, 50, and 200 EMAs \u2014 uptrend confirmed. RSI at 64.1 (bullish momentum). Relative strength vs SPY: outperforming (+9.1%). Note: market regime is NEUTRAL \u2014 be selective.",
+      "moomoo": {
+        "note": "Strong setup. Consider adding UPS on minor dips.",
+        "avoid": "Avoid chasing \u2014 scale in rather than buying all at once."
+      },
+      "signals": {
+        "daily": {
+          "close": 108.54,
+          "ema20": 104.22,
+          "ema50": 102.38,
+          "ema200": 98.37,
+          "rsi": 64.1,
+          "rsi_label": "bullish momentum",
+          "macd": "bullish",
+          "ema_stack": "bullish",
+          "volume": "normal",
+          "vol_ratio": 0.71,
+          "atr": 2.67,
+          "week52_pct": 79.2
+        }
+      },
+      "levels": {
+        "support": [
+          94.47,
+          93.58
+        ],
+        "resistance": [
+          106.74,
+          110.36
+        ]
+      },
+      "rs_vs_spy": 9.1,
+      "rs_3m": -0.96,
+      "rs_6m": 6.71,
+      "earnings_date": "2026-07-28",
+      "earnings_risk": false,
+      "sector": ""
     }
   ],
   "scanned": 113,
-  "regime": "BULL",
-  "as_of": "2026-06-03T15:27:54+08:00",
-  "count": 4
+  "regime": "NEUTRAL",
+  "as_of": "2026-06-06T17:03:48+08:00",
+  "count": 8
 }
