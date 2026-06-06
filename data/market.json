@@ -1,6 +1,6 @@
 {
-  "market_status": "afterhours",
-  "market_label": "After Hours",
+  "market_status": "closed",
+  "market_label": "Closed",
   "regime": "NEUTRAL",
   "regime_desc": "Mixed signals across SPY and QQQ. Be selective.",
   "spy": {
